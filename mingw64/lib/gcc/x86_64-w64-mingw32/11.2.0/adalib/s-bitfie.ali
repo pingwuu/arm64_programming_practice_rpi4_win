@@ -1,0 +1,62 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.bitfields%s	s-bitfie.ads		f4f5bfbd NE OL PK
+W system%s		system.ads		system.ali
+W system.bitfield_utils%s  s-bituti.adb		s-bituti.ali
+
+D system.ads		20210728065506 2ffa5114 system%s
+D s-bituti.ads		20210728065506 6a428d3e system.bitfield_utils%s
+D s-bituti.adb		20210728065506 5d53691e system.bitfield_utils%b
+D s-bitfie.ads		20210728065506 b14d6397 system.bitfields%s
+G a e
+G c Z s s [val_arrayIP system__bitfields__utils 91 12 56_4]
+G c Z s s [copy_bitfield system__bitfields__utils 107 17 56_4]
+G c Z s s [get_val_2 system__bitfields__utils 55 16 56_4]
+G c Z s s [set_val_2 system__bitfields__utils 63 17 56_4]
+G c Z s s [get_bitfield system__bitfields__utils 78 16 56_4]
+G c Z s s [set_bitfield system__bitfields__utils 84 16 56_4]
+G c Z s s [set_bitfield system__bitfields__utils 94 17 56_4]
+G c Z s s [copy_small_bitfield system__bitfields__utils 101 17 56_4]
+G c Z s s [copy_large_bitfield system__bitfields__utils 111 17 56_4]
+X 1 system.ads
+37K9*System 193e11 4|32r6 34r9 44r39 56r25 66r5
+67M9*Address 4|59r22 61r22
+71N4*Storage_Unit 4|44r46
+X 2 s-bituti.ads
+32K16*Bitfield_Utils 132e26 4|32w13 56r32
+78k12*G 130e9 4|56r47
+100I15*Bit_Size{natural} 4|63r28[56]
+101I15*Small_Size{100I15[4|56]}
+103I15*Bit_Offset{101I15[4|56]}
+105I15*Bit_Offset_In_Byte{103I15[4|56]} 4|60r28[56] 62r28[56]
+107U17*Copy_Bitfield 4|64r20[56]
+X 4 s-bitfie.ads
+34K16*Bitfields 1|37k9 4|66l12 66e21
+43N4*Val_Bits 44r28 46r26 48r23
+44N4*Val_Bytes 46r58 48r50
+46M9*Val_2 47r36 56r55
+48M9*Val 56r50
+56K12*Utils[2|78] 60r22 62r22 63r22 64r14
+58U14*Copy_Bitfield=64:20
+59m7 Src_Address{1|67M9}
+60i7 Src_Offset{2|105I15[56]}
+61m7 Dest_Address{1|67M9}
+62i7 Dest_Offset{2|105I15[56]}
+63i7 Size{2|100I15[56]}
+

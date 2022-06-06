@@ -1,0 +1,52 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+
+U ada.strings.fixed.hash%s  a-stfiha.ads	cd9b55a0 NE OL PU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.hash%s	a-strhas.adb		a-strhas.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-charac.ads		20210728065506 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210728065506 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20210728065506 61e5e089 ada.containers%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-strfix.ads		20210728065506 aeacf44c ada.strings.fixed%s
+D a-stfiha.ads		20210728065506 c5ce6b37 ada.strings.fixed.hash%s
+D a-strhas.ads		20210728065506 c71c2a52 ada.strings.hash%s
+D a-strmap.ads		20210728065506 5a88892a ada.strings.maps%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 7|16r6 16r22 18r10 19r12 21r14
+X 4 a-contai.ads
+16K13*Containers 28e19 7|16w10 18r55
+19M9*Hash_Type 7|18r66
+X 5 a-string.ads
+16K13*Strings 1|16k9 5|35e16 7|16r26 18r14 19r16 21r18
+X 6 a-strfix.ads
+43K21*Fixed 5|16k13 6|1398e22 7|18r22 21r26
+X 7 a-stfiha.ads
+18V28*Hash=19:24{4|19M9} 21r32
+18a34 Key{string}
+X 8 a-strhas.ads
+20V22*Hash{4|19M9} 7|16w34 19r24
+

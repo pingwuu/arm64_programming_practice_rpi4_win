@@ -1,0 +1,282 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U system.finalization_masters%b  s-finmas.adb	1a7f835c OL PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.address_image%s  s-addima.adb		s-addima.ali
+W system.htable%s	s-htable.adb		s-htable.ali
+Z system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.io%s		s-io.adb		s-io.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U system.finalization_masters%s  s-finmas.ads	4e386d0b EE OL PF PR PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-finali.ads		20210728065506 bf4f806b ada.finalization%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210728065506 eff36322 ada.unchecked_deallocation%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-addima.ads		20210728065506 a1ec9d3a system.address_image%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-finmas.ads		20210728065506 1ab4dba8 system.finalization_masters%s
+D s-finmas.adb		20210728065506 75c9da98 system.finalization_masters%b
+D s-finroo.ads		20210728065506 4ff27390 system.finalization_root%s
+D s-htable.ads		20210728065506 84c2b3ea system.htable%s
+D s-htable.adb		20210728065506 34c239ad system.htable%b
+D s-imgboo.ads		20210728065506 f5d971eb system.img_bool%s
+D s-io.ads		20210728065506 9e42f74f system.io%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210728065506 e9fa2dd8 system.storage_pools%s
+D s-strhas.ads		20210728065506 269cd894 system.string_hash%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+G a e
+G c Z s b [attach system__finalization_masters 76 14 none]
+G c Z s b [attach_unprotected system__finalization_masters 80 14 none]
+G c Z s b [delete_finalize_address_unprotected system__finalization_masters 85 14 none]
+G c Z s b [detach_unprotected system__finalization_masters 89 14 none]
+G c Z s b [finalize system__finalization_masters 92 25 none]
+G c Z s b [finalize_address system__finalization_masters 97 13 none]
+G c Z s b [finalize_address_unprotected system__finalization_masters 102 13 none]
+G c Z s b [finalization_started system__finalization_masters 107 13 none]
+G c Z s b [header_size system__finalization_masters 110 13 none]
+G c Z s b [is_homogeneous system__finalization_masters 113 13 none]
+G c Z s b [objects system__finalization_masters 116 13 none]
+G c Z s b [print_master system__finalization_masters 119 14 none]
+G c Z s b [set_finalize_address system__finalization_masters 122 14 none]
+G c Z s b [set_finalize_address_unprotected system__finalization_masters 128 14 none]
+G c Z s b [set_heterogeneous_finalize_address_unprotected system__finalization_masters 133 14 none]
+G c Z s b [set_is_heterogeneous system__finalization_masters 141 14 none]
+G c Z s b [add_offset_to_address system__finalization_masters 185 13 none]
+G c Z s b [base_pool system__finalization_masters 189 13 none]
+G c Z s b [initialize system__finalization_masters 194 25 none]
+G c Z s b [set_base_pool system__finalization_masters 197 14 none]
+G c Z s s [fm_nodeIP system__finalization_masters 147 9 none]
+G c Z s s [finalization_masterDF system__finalization_masters 157 9 none]
+G c Z s s [finalization_masterIP system__finalization_masters 157 9 none]
+G c Z b b [hash system__finalization_masters 49 13 none]
+G c Z b b [set system__finalization_masters__finalize_address_table 72 17 53_4]
+G c Z b b [reset system__finalization_masters__finalize_address_table 76 17 53_4]
+G c Z b b [get system__finalization_masters__finalize_address_table 79 16 53_4]
+G c Z b b [remove system__finalization_masters__finalize_address_table 83 17 53_4]
+G c Z b b [get_first system__finalization_masters__finalize_address_table 87 16 53_4]
+G c Z b b [get_next system__finalization_masters__finalize_address_table 92 16 53_4]
+G c Z b b [get_first system__finalization_masters__finalize_address_table 98 17 53_4]
+G c Z b b [get_next system__finalization_masters__finalize_address_table 105 17 53_4]
+G c Z b b [element_wrapperIP system__finalization_masters__finalize_address_table 232 12 53_4]
+G c Z b b [free system__finalization_masters__finalize_address_table 238 17 53_4]
+G c Z b b [set_next system__finalization_masters__finalize_address_table 241 17 53_4]
+G c Z b b [next system__finalization_masters__finalize_address_table 242 17 53_4]
+G c Z b b [get_key system__finalization_masters__finalize_address_table 243 17 53_4]
+G c Z b b [reset system__finalization_masters__finalize_address_table__tab 170 17 245_7_53_4]
+G c Z b b [set system__finalization_masters__finalize_address_table__tab 179 17 245_7_53_4]
+G c Z b b [get system__finalization_masters__finalize_address_table__tab 182 16 245_7_53_4]
+G c Z b b [present system__finalization_masters__finalize_address_table__tab 186 16 245_7_53_4]
+G c Z b b [set_if_not_present system__finalization_masters__finalize_address_table__tab 189 16 245_7_53_4]
+G c Z b b [remove system__finalization_masters__finalize_address_table__tab 194 17 245_7_53_4]
+G c Z b b [get_first system__finalization_masters__finalize_address_table__tab 198 16 245_7_53_4]
+G c Z b b [get_next system__finalization_masters__finalize_address_table__tab 203 16 245_7_53_4]
+G c Z b b [TtableBIP system__finalization_masters__finalize_address_table__tab 45 7 245_7_53_4]
+G c Z b b [get_non_null system__finalization_masters__finalize_address_table__tab 51 16 245_7_53_4]
+X 1 ada.ads
+16K9*Ada 20e8 11|32r6 68r10 158r10 12|32r6 32r26
+X 2 a-except.ads
+44K13*Exceptions 308e19 12|32w10 32r30
+53R9*Exception_Occurrence 282e14 12|143r18
+86U14*Reraise_Occurrence 12|259s10
+113U14*Save_Occurrence 12|232s19
+X 3 a-finali.ads
+40K13*Finalization 68e21 11|32w10 68r14 158r14
+50H9*Limited_Controlled<13|40R9> 66e55 11|68r27 158r27
+X 8 system.ads
+37K9*System 193e11 11|33r6 34r6 38r9 47r57 59r13 85r57 103r13 110r32 134r22
+. 186r16 187r16 187r63 202r5 12|34r6 35r6 35r35 36r6 36r35 37r6 37r35 38r6
+. 38r35 40r14 49r25 57r21 66r16 67r16 67r63 70r14 117r57 279r13 300r25 311r32
+. 518r22 540r5
+67M9*Address 11|47r64 85r64 103r20 134r29 186r23 187r70 12|49r32 57r28 66r23
+. 67r70 117r64 144r18 279r20 300r32 518r29
+71N4*Storage_Unit 12|313r29
+81V14*"="{boolean} 12|59r22
+X 9 s-addima.ads
+39V17*Address_Image{string} 12|34w13 365s17 374s20 381s20 439s15 454s23 462s23
+X 11 s-finmas.ads
+38K16*Finalization_Masters 8|37k9 11|147E9 202l12 202e32 12|40b21 540l12
+. 540t32
+47P9*Finalize_Address_Ptr 47>51 98r44 103r36 124r22 130r22 135r22 172r26
+. 12|55r21 141r18 268r44 279r36 487r22 505r22 519r22
+47m51 Obj{8|67M9}
+51R9*FM_Node 52r35 147c9 150e14 168r25 12|313r14
+52P9*FM_Node_Ptr(51R9) 53r31 76r35 76r61 81r20 82r20 89r47 116r59 148r14
+. 149r14 12|77r35 77r61 92r20 93r20 126r47 142r18 147r44 154r44 341r59 351r28
+. 353r19
+58P9*Any_Storage_Pool_Ptr(25|42R9) 60r8 164r19 190r44 199r18 12|107r44 475r18
+67R9*Finalization_Master<3|50R9> 73r47 92P25 92r51 97p13 98r16 107p13 107r44
+. 113p13 113r38 116p13 116r31 119p14 119r37 122p14 123r29 128p14 129r29 141p14
+. 141r52 157c9 180e14 189p13 190r16 194P25 194r53 197p14 198r25 12|107r16
+. 140r51 268r16 290r16 320r53 332r38 341r31 350r37 474r25 486r29 504r29 529r52
+. 13|42p14
+73P9*Finalization_Master_Ptr(67R9) 74r8
+76U14*Attach 76>22 76>48 12|77b14 85l8 85t14
+76p22 N{52P9} 12|77b22 80r27
+76p48 L{52P9} 12|77b48 80r30
+80U14*Attach_Unprotected 81>7 82>7 12|80s7 91b14 100l8 100t26
+81p7 N{52P9} 12|92b7 96r22 97r7 98r17 99r7
+82p7 L{52P9} 12|93b7 96r7 97r17 98r7 99r17
+85U14*Delete_Finalize_Address_Unprotected 85>51 12|117b14 120l8 120t43 249s13
+85m51 Obj{8|67M9} 12|117b51 119r38
+89U14*Detach_Unprotected 89>34 12|126b14 134l8 134t26 196s10
+89p34 N{52P9} 12|126b34 128r10 128r34 129r10 129r25 130r10 130r25 131r10
+. 132r10
+92U25*Finalize<3|54p14> 92=35 12|140b25 261l8 261t16
+92r35 Master{67R9} 12|140b35 168r10 188m7 190m32 190r32 191r22 210r13 216r24
+. 243r17
+97V13*Finalize_Address{47P9} 98>7 12|267b13 272l8 272t24
+98r7 Master{67R9} 12|268b7 271r14
+102V13*Finalize_Address_Unprotected{47P9} 103>7 12|223s24 278b13 283l8 283t36
+103m7 Obj{8|67M9} 12|279b7 282r42
+107V13*Finalization_Started{boolean} 107>35 12|289b13 294l8 294t28
+107r35 Master{67R9} 12|290b7 293r14
+110V13*Header_Size{23|62I12} 12|201s45 311b13 314l8 314t19
+113V13*Is_Homogeneous{boolean} 113>29 12|332b13 335l8 335t22
+113r29 Master{67R9} 12|332b29 334r14
+116V13*Objects{52P9} 116>22 12|341b13 344l8 344t15
+116r22 Master{67R9} 12|341b22 343r14
+119U14*Print_Master 119>28 12|350b14 467l8 467t20
+119r28 Master{67R9} 12|350b28 351r43 365r32 368r17 371r10 374r35 378r10 381r35
+. 385r17
+122U14*Set_Finalize_Address 123=7 124>7 12|485b14 497l8 497t28
+123r7 Master{67R9} 12|486b7 495m41
+124p7 Fin_Addr_Ptr{47P9} 12|487b7 495r49
+128U14*Set_Finalize_Address_Unprotected 129=7 130>7 12|495s7 503b14 511l8
+. 511t40
+129r7 Master{67R9} 12|504b7 508r10 509m10
+130p7 Fin_Addr_Ptr{47P9} 12|505b7 509r37
+133U14*Set_Heterogeneous_Finalize_Address_Unprotected 134>7 135>7 12|517b14
+. 523l8 523t54
+134m7 Obj{8|67M9} 12|518b7 522r35
+135p7 Fin_Addr_Ptr{47P9} 12|519b7 522r40
+141U14*Set_Is_Heterogeneous 141=36 12|529b14 538l8 538t28
+141r36 Master{67R9} 12|529b36 536m7
+148p7*Prev{52P9} 12|96m14 99m9 128r12 129r12 130m17 130r27 131m12 156r39
+. 325m22 422r19 427r22 451r19 454r44
+149p7*Next{52P9} 12|96r9 97m9 97r19 98m9 128r36 129m17 129r27 130r12 132m12
+. 156r19 191r37 324m22 427r27 459r19 462r44 465r25
+160b7 Is_Homogeneous{boolean} 12|210r20 243r24 334r21 368r24 536m14
+164p7 Base_Pool{58P9} 12|110r21 371r17 374m42 478m14
+168r7 Objects{51R9} 12|190m39 191r29 324m14 324m37 325m14 325m37 343m21 351m50
+172p7 Finalize_Address{47P9} 12|216r31 271r21 378r17 381m42 508r17 509m17
+176b7 Finalization_Started{boolean} 12|168r17 188m14 293r21 385r24
+185V13 Add_Offset_To_Address{8|67M9} 186>7 187>7 12|65b13 71l8 71t29
+186m7 Addr{8|67M9} 12|66b7 70r43
+187i7 Offset{23|54I9} 12|67b7 70r49
+189V13 Base_Pool{58P9} 190>7 12|106b13 111l8 111t17
+190r7 Master{67R9} 12|107b7 110r14
+194U25 Initialize<3|53p14> 194=37 12|320b25 326l8 326t18
+194r37 Master{67R9} 12|320b37 324m7 324m30 324r30 325m7 325m30 325r30
+197U14 Set_Base_Pool 198=7 199>7 12|473b14 479l8 479t21
+198r7 Master{67R9} 12|474b7 478m7
+199p7 Pool_Ptr{58P9} 12|475b7 478r27
+X 12 s-finmas.adb
+47I9 Header_Num<short_short_integer> 49r48 54r21 300r48 303r9 304r50
+49V13 Hash{47I9} 49>19 58r21 300b13 305l8 305t12
+49m19 Key{8|67M9} 300b19 304r24
+53K12 Finalize_Address_Table[14|70] 119r7 282r14 522r7
+141p7 Cleanup{11|47P9} 216m13 223m13 227r13
+142p7 Curr_Ptr{11|52P9} 191m10 196r30 201r22
+143r7 Ex_Occur{2|53R9} 232m36 259r30
+144m7 Obj_Addr{8|67M9} 201m10 223r54 227r22 249r50
+145b7 Raised{boolean} 230r23 231m19 258r10
+147V16 Is_Empty_List{boolean} 147>31 154b16 157l11 157t24 190s17
+147p31 L{11|52P9} 154b31 156r17 156r26 156r37 156r46
+229r18 Fin_Occur{2|53R9} 232r46
+351p7 Head{11|52P9} 406r16 413r21 443r21
+352b7 Head_Seen{boolean} 414r23 416m13
+353p7 N_Ptr{11|52P9} 406m7 407r13 413r13 422r13 427r16 427r34 439r30 443r13
+. 451r13 454r38 459r13 462r38 465m10 465r19
+X 13 s-finroo.ads
+42U14*Adjust
+X 14 s-htable.ads
+42K16*HTable 12|35w13 35r42 14|222e18
+56I12 Header_Num 12|54r7
+59+12 Element 12|55r7
+62*7 No_Element{59+12} 12|56r7
+66+12 Key 12|57r7
+67V21 Hash{56I12} 12|58r7
+68V21 Equal{boolean} 12|59r7
+70k12*Simple_HTable 12|53r42 14|113e21
+72U17 Set 12|522s30[53]
+79V16 Get{11|47P9} 12|282s37[53]
+83U17 Remove 12|119s30[53]
+X 17 s-io.ads
+37K16*IO 12|36w13 36r42 17|64e14
+44U14*Put 12|364s7 367s7 370s7 377s7 384s7 438s10 439s10 449s10 457s10
+45U14*Put_Line 12|365s7 368s7 372s10 374s10 379s10 381s10 385s7 408s10 423s13
+. 428s13 433s13 444s13 446s13 452s13 454s13 460s13 462s13
+X 20 s-soflin.ads
+47K16*Soft_Links 12|37w13 37r42 20|416e22
+64P9*No_Param_Proc
+189p4*Lock_Task{64P9} 12|79r7 162r7 494r7 535r7
+199p4*Unlock_Task{64P9} 12|81r7 169r10 253r7 496r7 537r7
+X 23 s-stoele.ads
+42K16*Storage_Elements 11|33w13 110r39 187r23 12|38w13 38r42 67r23 70r21
+. 311r39 23|117e28
+54I9*Storage_Offset<long_long_integer> 11|187r40 12|67r40
+62I12*Storage_Count{54I9} 11|110r56 12|311r56
+76V14*"+"{8|67M9} 12|70s39 201s43
+81V14*"+"{8|67M9} 12|70r39
+105M9*Integer_Address 12|304r33
+112V13*To_Integer{105M9} 12|304s12
+X 25 s-stopoo.ads
+39K16*Storage_Pools 11|34w13 59r20 25|100e25
+42H9*Root_Storage_Pool<3|50R9> 11|59r34 25|67e62
+

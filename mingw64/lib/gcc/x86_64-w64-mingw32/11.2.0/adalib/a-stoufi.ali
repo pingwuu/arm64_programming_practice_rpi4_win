@@ -1,0 +1,203 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+
+U ada.strings.text_output.files%b  a-stoufi.adb	bd40d433 OL PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+W ada.strings.text_output.utils%s  a-stouut.adb	a-stouut.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U ada.strings.text_output.files%s  a-stoufi.ads	91e0c9d2 EE OL PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-finali.ads		20210728065506 bf4f806b ada.finalization%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-stteou.ads		20210728065506 e7ab1e2a ada.strings.text_output%s
+D a-stoufi.ads		20210728065506 c4b312b0 ada.strings.text_output.files%s
+D a-stoufi.adb		20210728065506 a9d82332 ada.strings.text_output.files%b
+D a-stouut.ads		20210728065506 d02be5b1 ada.strings.text_output.utils%s
+D a-stuten.ads		20210728065506 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210728065506 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210728065506 eff36322 ada.unchecked_deallocation%s
+D gnat.ads		20210728065506 b5988c27 gnat%s
+D g-os_lib.ads		20210728065506 0db74523 gnat.os_lib%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-finmas.ads		20210728065506 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210728065506 4ff27390 system.finalization_root%s
+D s-memory.ads		20210728065506 597d6634 system.memory%s
+D s-os_lib.ads		20210728065506 5797958e system.os_lib%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-pooglo.ads		20210728065506 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stalib.adb		20210728065506 977290bf system.standard_library%b
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210728065506 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20210728065506 e251976f system.storage_pools.subpools%s
+D s-string.ads		20210728065506 8fe54fb7 system.strings%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D unchconv.ads		20210728065506 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [standard_output ada__strings__text_output__files 38 13 none]
+G c Z s b [standard_error ada__strings__text_output__files 39 13 none]
+G c Z s b [create_file ada__strings__text_output__files 43 13 none]
+G c Z s b [create_new_file ada__strings__text_output__files 47 13 none]
+G c Z s b [close ada__strings__text_output__files 54 14 none]
+G c Z s b [finalize ada__strings__text_output__files 62 25 none]
+G c Z s b [full_method ada__strings__text_output__files 69 25 none]
+G c Z s b [flush_method ada__strings__text_output__files 70 25 none]
+G c Z s s [self_refDF ada__strings__text_output__files 60 9 none]
+G c Z s s [self_refIP ada__strings__text_output__files 60 9 none]
+G c Z s s [fileDF ada__strings__text_output__files 64 9 none]
+G c Z s s [fileDI ada__strings__text_output__files 64 9 none]
+G c Z s s [fileIP ada__strings__text_output__files 64 9 none]
+G c Z b b [create_from_fd ada__strings__text_output__files 36 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 7|33r14 34r9 72r5 8|32r6 32r41 33r14 123r5
+X 3 a-finali.ads
+40K13*Finalization 68e21 7|33w18 60r46
+50H9*Limited_Controlled<21|40R9> 66e55 7|60r59
+53U14*Initialize<21|44p14>
+X 5 a-string.ads
+16K13*Strings 1|16k9 5|35e16 7|34r13 72r9 8|32r10 32r45 33r18 123r9
+X 6 a-stteou.ads
+35K21*Text_Output 5|16k13 6|193e28 7|34r21 72r17 8|32r18 32r53 33r26 123r17
+78H9*Sink 191e14 7|41r26 64r21
+79P9*Sink_Access(78R9) 7|38r36 39r35 8|120r36 121r35
+141i4*Default_Indent_Amount{natural} 7|45r34 49r34 8|60r34 71r34 113r39 117r39
+143i4*Default_Chunk_Length{positive} 7|46r34 50r34 8|61r34 72r34 114r38 118r38
+154P9 Chunk_Access(153R9)
+155R9 Chunk
+157a7*Chars{string} 8|103m37
+161i7*Indent_Amount{natural} 8|52m17
+178p7*Cur_Chunk{154P9} 8|53m17 101r24 103r27
+184i7*Last{natural} 8|103r54 105r19 108m9
+187r7*Initial_Chunk{155R9} 8|53m37 101m38
+X 7 a-stoufi.ads
+34K33*Files 6|35k21 7|58E12 72l29 72e34 8|33b38 123l29 123t34
+38V13*Standard_Output{6|79P9} 8|120b13
+39V13*Standard_Error{6|79P9} 8|121b13
+41R9*File<6|78R9> 43p13 46r63 47p13 50r63 54r32 60r33 64c9 66r23 67e14 69P25
+. 69r49 70P25 70r50 8|39r39 45r39 51r23 61r63 72r63 85r32 98r49 100r50 111r25
+. 115r25
+43V13*Create_File{41R9} 44>7 45>7 46>7 8|58b13 67l8 67t19
+44a7 Name{string} 8|59b7 65r26
+45i7 Indent_Amount{natural} 8|60b7 66r10
+46i7 Chunk_Length{positive} 8|61b7 66r25
+47V13*Create_New_File{41R9} 48>7 49>7 50>7 8|69b13 78l8 78t23
+48a7 Name{string} 8|70b7 76r30
+49i7 Indent_Amount{natural} 8|71b7 77r10
+50i7 Chunk_Length{positive} 8|72b7 77r25
+54U14*Close 54=21 8|82s7 85b14 96l8 96t13
+54c21 S<41R9> 8|85b21 88m14 90r10 91r20
+58K12 OS=58:28 65r12 65r34 8|34r13 37r12 43r12 48r15 49r35 65r10 65r41 76r10
+. 76r45 90r22 90r36 91r10 93r38 103r9 106r35 112r22 116r22
+60R9 Self_Ref<3|50R9> 3|53P14 7|60d19 61e22 62P25 62r48 66r13 8|80r48 21|42p14
+62U25 Finalize<3|54p14> 62=35 8|80b25 83l8 83t16
+62r35 Ref{60R9} 8|80b35 82r14
+65i7 FD{23|192I9} 8|54m17 90r12 91r22 103r21
+66r7 Ref{60R9}
+69U25 Full_Method<6|83p14> 69=38 8|98b25
+69r38 S{41R9} 8|98b38
+70U25 Flush_Method<6|84p14> 70=39 8|98r63 100b25 109l8 109t20
+70r39 S{41R9} 8|100b39 101r22 101m36 101r36 103r19 103r25 103r52 105r17 108m7
+X 8 a-stoufi.adb
+36V13 Create_From_FD{7|41R9} 37>7 38>7 39>7 42b13 56l8 56t22 64s14 75s14
+. 112s6 116s6
+37i7 FD{23|192I9} 43b7 48r10 54r23
+38i7 Indent_Amount{natural} 44b7 52r34 113r22 117r22
+39i7 Chunk_Length{positive} 45b7 51r29 114r22 118r22
+51r14 Result{7|41R9} 52m10 53m10 53m30 53r30 54m10
+86b7 Status{boolean} 91m26 92r17
+102i7 Res{integer} 105r10
+111r4 The_Stdout{7|41R9} 120r52
+115r4 The_Stderr{7|41R9} 121r51
+X 9 a-stouut.ads
+32K33*Utils 8|32w30 32r65 9|107e34
+42U14*Flush 8|88s7
+X 15 gnat.ads
+34K9*GNAT 7|32r14 58r23 15|57e9
+X 16 g-os_lib.ads
+51K14*OS_Lib=51:36 7|32w19 58r28
+X 18 system.ads
+67M9*Address
+X 21 s-finroo.ads
+42U14*Adjust
+X 22 s-memory.ads
+53V13*Alloc{18|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{18|67M9} 105i<c,__gnat_realloc>22
+X 23 s-os_lib.ads
+192I9*File_Descriptor<integer> 7|65r15 8|34r16 37r15 43r15
+196i4*Standout{192I9} 8|90r25 112r25
+197i4*Standerr{192I9} 8|90r39 116r25
+200i4*Invalid_FD{192I9} 7|65r37 8|48r18
+206U14*Close 8|91s13
+287n26*Text{287E9} 8|65r44 76r48
+298V13*Create_File{192I9} 8|65s13
+300e7 Fmode{287E9} 8|65r32
+306V13*Create_New_File{192I9} 8|76s13
+308e7 Fmode{287E9} 8|76r36
+660V13*Write{integer} 8|103s12
+1031V13*Errno_Message{string} 8|49s38 93s41 106s38
+X 30 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+

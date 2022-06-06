@@ -1,0 +1,35 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.exp_int%s	s-expint.ads		10d344d5 NE OL PK
+W system%s		system.ads		system.ali
+W system.expont%s
+
+D system.ads		20210728065506 2ffa5114 system%s
+D s-expint.ads		20210728065506 6ac5a99b system.exp_int%s
+D s-expont.ads		20210728065506 55ecbc5a system.expont%s
+D s-expont.adb		20210728065506 57597480 system.expont%b
+G a e
+G c Z s s [exp_integerR system__exp_int__exp_integerGP2471 38 13 none]
+G c Z s s [exp_integer system__exp_int 38 13 none]
+X 1 system.ads
+37K9*System 193e11 2|34r6 36r9 41r5
+X 2 s-expint.ads
+36K16*Exp_Int 1|37k9 2|41l12 41e19
+38V13*Exp_Integer[3|38]{integer} 39r26 4|32b17
+X 3 s-expont.ads
+38v17*Expont 1|37k9 2|34w13 38r32
+

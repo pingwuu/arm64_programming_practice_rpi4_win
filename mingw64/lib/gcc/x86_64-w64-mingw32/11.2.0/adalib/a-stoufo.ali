@@ -1,0 +1,165 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_EXCEPTIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.strings.text_output.formatting%b  a-stoufo.adb  9b88de93 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+W ada.strings.text_output.buffers%s  a-stoubu.adb  a-stoubu.ali
+W ada.strings.text_output.files%s  a-stoufi.adb	a-stoufi.ali
+W ada.strings.text_output.utils%s  a-stouut.adb	a-stouut.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+
+U ada.strings.text_output.formatting%s  a-stoufo.ads  7a9c9f68 NE OL PK
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-finali.ads		20210728065506 bf4f806b ada.finalization%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-stteou.ads		20210728065506 e7ab1e2a ada.strings.text_output%s
+D a-stoubu.ads		20210728065506 6762ae3f ada.strings.text_output.buffers%s
+D a-stoufi.ads		20210728065506 c4b312b0 ada.strings.text_output.files%s
+D a-stoufo.ads		20210728065506 9d378142 ada.strings.text_output.formatting%s
+D a-stoufo.adb		20210728065506 754506ef ada.strings.text_output.formatting%b
+D a-stouut.ads		20210728065506 d02be5b1 ada.strings.text_output.utils%s
+D a-stuten.ads		20210728065506 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210728065506 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210728065506 eff36322 ada.unchecked_deallocation%s
+D gnat.ads		20210728065506 b5988c27 gnat%s
+D g-os_lib.ads		20210728065506 0db74523 gnat.os_lib%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-finmas.ads		20210728065506 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210728065506 4ff27390 system.finalization_root%s
+D s-os_lib.ads		20210728065506 5797958e system.os_lib%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210728065506 e9fa2dd8 system.storage_pools%s
+D s-string.ads		20210728065506 8fe54fb7 system.strings%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D unchconv.ads		20210728065506 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [put ada__strings__text_output__formatting 42 14 none]
+G c Z s b [put ada__strings__text_output__formatting 56 14 none]
+G c Z s b [err ada__strings__text_output__formatting 61 14 none]
+G c Z s b [format ada__strings__text_output__formatting 66 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 9|32r9 72r5 10|32r6 33r6 33r43 34r6 34r41 35r14 155r5
+X 5 a-string.ads
+16K13*Strings 1|16k9 5|35e16 9|32r13 72r9 10|32r10 33r10 33r47 34r10 34r45
+. 35r18 155r9
+X 6 a-stteou.ads
+35K21*Text_Output 5|16k13 6|193e28 9|32r21 72r17 10|32r18 33r18 33r55 34r18
+. 34r53 35r26 155r17
+78H9*Sink 191e14 9|43r18 10|38r18
+79P9*Sink_Access(78R9)
+133A12*UTF_8_Lines{12|59A12}<integer> 9|44r44 58r44 63r44 68r44 69r13 10|39r44
+. 132r44 139r44 146r44 147r13
+138A12*UTF_8{133A12}<integer> 9|41r25
+X 7 a-stoubu.ads
+32K33*Buffers 73e36 10|33w30 33r67
+34R9*Buffer<6|78R9> 68e14 10|149r13
+36V13*New_Buffer{34R9} 10|149s23
+45V13*Get_UTF_8{6|133A12} 10|152s14
+X 8 a-stoufi.ads
+34K33*Files 72e34 10|32w30 134r12 141r12
+38V13*Standard_Output{6|79P9} 10|134s18
+39V13*Standard_Error{6|79P9} 10|141s18
+X 9 a-stoufo.ads
+32K33*Formatting 6|35k21 9|72l29 72e39 10|35b38 155l29 155t39
+41A9*Template<string>(character)<integer> 43r34 57r11 62r11 67r11 10|38r34
+. 131r11 138r11 145r11
+42U14*Put 43=7 43>30 44>7 44>11 44>15 44>19 44>23 44>27 44>31 44>35 44>39
+. 10|37b14 128l8 128t11 134s7 141s7 151s7
+43c7 S<6|78R9> 10|38b7 49m29 51m29 53m27 55m28 57m27 59m28 63m36 66m36 69m36
+. 72m36 75m36 78m36 81m36 84m36 87m36 93m23 127m14
+43a30 T{41A9} 10|38b30 41r23 44r18 45r13 47r18 93r26
+44a7 X1{6|133A12} 10|39b7 63r39 100r25
+44a11 X2{6|133A12} 10|39b11 66r39 103r25
+44a15 X3{6|133A12} 10|39b15 69r39 106r25
+44a19 X4{6|133A12} 10|39b19 72r39 109r25
+44a23 X5{6|133A12} 10|39b23 75r39 112r25
+44a27 X6{6|133A12} 10|39b27 78r39 115r25
+44a31 X7{6|133A12} 10|39b31 81r39 118r25
+44a35 X8{6|133A12} 10|39b35 84r39 121r25
+44a39 X9{6|133A12} 10|39b39 87r39 124r25
+56U14*Put 57>7 58>7 58>11 58>15 58>19 58>23 58>27 58>31 58>35 58>39 10|130b14
+. 135l8 135t11
+57a7 T{41A9} 10|131b7 134r39
+58a7 X1{6|133A12} 10|132b7 134r42
+58a11 X2{6|133A12} 10|132b11 134r46
+58a15 X3{6|133A12} 10|132b15 134r50
+58a19 X4{6|133A12} 10|132b19 134r54
+58a23 X5{6|133A12} 10|132b23 134r58
+58a27 X6{6|133A12} 10|132b27 134r62
+58a31 X7{6|133A12} 10|132b31 134r66
+58a35 X8{6|133A12} 10|132b35 134r70
+58a39 X9{6|133A12} 10|132b39 134r74
+61U14*Err 62>7 63>7 63>11 63>15 63>19 63>23 63>27 63>31 63>35 63>39 10|137b14
+. 142l8 142t11
+62a7 T{41A9} 10|138b7 141r38
+63a7 X1{6|133A12} 10|139b7 141r41
+63a11 X2{6|133A12} 10|139b11 141r45
+63a15 X3{6|133A12} 10|139b15 141r49
+63a19 X4{6|133A12} 10|139b19 141r53
+63a23 X5{6|133A12} 10|139b23 141r57
+63a27 X6{6|133A12} 10|139b27 141r61
+63a31 X7{6|133A12} 10|139b31 141r65
+63a35 X8{6|133A12} 10|139b35 141r69
+63a39 X9{6|133A12} 10|139b39 141r73
+66V13*Format{6|133A12} 67>7 68>7 68>11 68>15 68>19 68>23 68>27 68>31 68>35
+. 68>39 10|144b13 153l8 153t14
+67a7 T{41A9} 10|145b7 151r17
+68a7 X1{6|133A12} 10|146b7 151r20
+68a11 X2{6|133A12} 10|146b11 151r24
+68a15 X3{6|133A12} 10|146b15 151r28
+68a19 X4{6|133A12} 10|146b19 151r32
+68a23 X5{6|133A12} 10|146b23 151r36
+68a27 X6{6|133A12} 10|146b27 151r40
+68a31 X7{6|133A12} 10|146b31 151r44
+68a35 X8{6|133A12} 10|146b35 151r48
+68a39 X9{6|133A12} 10|146b39 151r52
+X 10 a-stoufo.adb
+41i7 J{positive} 44r13 45r16 46m13 46r18 47r21 93r29 96m10 96r15
+42a7 Used(boolean) 62m19 65m19 68m19 71m19 74m19 77m19 80m19 83m19 86m19
+. 99r14 102r14 105r14 108r14 111r14 114r14 117r14 120r14 123r14
+149r7 Buf{7|34R9} 151r12 152r25
+X 11 a-stouut.ads
+32K33*Utils 10|34w30 34r65 11|107e34
+42U14*Flush 10|127s7
+61U14*Put_7bit 10|51s19 93s13
+69U14*Put_UTF_8_Lines 10|63s19 66s19 69s19 72s19 75s19 78s19 81s19 84s19
+. 87s19
+73U14*New_Line 10|49s19
+96U14*Indent 10|53s19 57s19
+99U14*Outdent 10|55s19 59s19
+X 12 a-stuten.ads
+59A12*UTF_8_String{string}<integer>
+

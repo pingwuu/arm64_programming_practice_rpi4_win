@@ -1,0 +1,52 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+
+U gnat.regexp%s		g-regexp.ads		40fe4806 NE OL
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.regexp%s	s-regexp.adb		s-regexp.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-finali.ads		20210728065506 bf4f806b ada.finalization%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20210728065506 b5988c27 gnat%s
+D g-regexp.ads		20210728065506 691be386 gnat.regexp%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-finroo.ads		20210728065506 4ff27390 system.finalization_root%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-regexp.ads		20210728065506 9c7d27a7 system.regexp%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210728065506 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+G a e
+X 7 gnat.ads
+34K9*GNAT 57e9 8|70r9
+X 8 g-regexp.ads
+70K14*Regexp=70:36
+X 9 system.ads
+37K9*System 8|68r6 70r29 9|193e11
+X 13 s-regexp.ads
+44K16*Regexp 8|68w13 70r36 13|143e18
+

@@ -1,0 +1,39 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+
+U system.fore_real%b	s-forrea.adb		93a5b610 NE OL PK
+W system%s		system.ads		system.ali
+
+U system.fore_real%s	s-forrea.ads		77856132 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20210728065506 2ffa5114 system%s
+D s-forrea.ads		20210728065506 587f3026 system.fore_real%s
+D s-forrea.adb		20210728065506 cbda8636 system.fore_real%b
+G a e
+G c Z s b [fore_real system__fore_real 38 13 none]
+X 1 system.ads
+37K9*System 193e11 2|35r9 42r5 3|32r14 57r5
+X 2 s-forrea.ads
+35K16*Fore_Real 1|37k9 2|42l12 42e21 3|32b21 57l12 57t21
+38V13*Fore_Real{natural} 38>24 38>28 3|38b13 55l8 55t17
+38f24 Lo{long_long_float} 3|38b24 39r55
+38f28 Hi{long_long_float} 3|38b28 39r63
+X 3 s-forrea.adb
+39f7 T{long_long_float} 49r13 50m10 50r15
+40i7 F{natural} 45m7 51m10 51r15 54r14
+

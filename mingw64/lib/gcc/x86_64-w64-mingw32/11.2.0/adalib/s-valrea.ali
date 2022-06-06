@@ -1,0 +1,115 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.val_real%b	s-valrea.adb		7b3f5164 NE OL PK GE
+W system%s		system.ads		system.ali
+W system.float_control%s  s-flocon.adb		s-flocon.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+W system.value_r%s
+
+U system.val_real%s	s-valrea.ads		cbafbce8 BN NE OL PR PK GE
+W system%s		system.ads		system.ali
+
+D system.ads		20210728065506 2ffa5114 system%s
+D s-flocon.ads		20210728065506 e0fc433c system.float_control%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+D s-valrea.ads		20210728065506 e455edfc system.val_real%s
+D s-valrea.adb		20210728065506 177fba04 system.val_real%b
+D s-valuti.ads		20210728065506 aca0b6fe system.val_util%s
+D s-valuer.ads		20210728065506 2aeea103 system.value_r%s
+D s-valuer.adb		20210728065506 90edc922 system.value_r%b
+G a e
+G c Z s b [val_real system 45 16 none]
+X 1 system.ads
+37K9*System 193e11 4|43r21 45r9 87r5 5|32r6 33r6 33r33 34r6 34r33 35r6 40r14
+. 125r10 269r5
+67M9*Address 4|43r28
+78V14*"<="{boolean} 5|42r40
+79V14*">"{boolean} 5|45r58
+81V14*"="{boolean} 5|102r40 107r34 108r34 109r46 124r31
+X 2 s-flocon.ads
+34K16*Float_Control 59e25 5|32w13 125r17
+39U14*Reset 5|125s31
+X 3 s-unstyp.ads
+40K16*Unsigned_Types 254e26 5|33w13 33r40
+46M9*Unsigned 5|58r22 82r15 84r15 95r15 97r15 240r15 242r15 257r15 259r15
+X 4 s-valrea.ads
+37F9 Num 51r29 81r46 5|42r19 45r37 52r29 85r31 98r31 102r22 107r25 108r25
+. 109r25 113r20 113r27 115r15 124r10 130r16 136r31 149r25 156r25 163r25 170r25
+. 176r60 238r29 256r46
+39M9 Uns 5|42r43 45r60 51r31 52r62 56r33 81r15 94r15 244r15 261r15
+41i4 Maxpow{positive} 5|176r49 182r32 183r50 184r34 190r33 191r50 192r34
+43m4 Powten_Address{1|67M9} 5|178r42
+45k16*Val_Real 1|37k9 4|37z9 39z9 41z4 43z4 87l12 87e20 5|40b21 269l12 269t20
+48V13*Scan_Real{37F9} 49>7 50^7 51>7 5|235b13 250l8 250t17
+49a7 Str{string} 5|236b7 247r34 249r31
+50p7 Ptr(integer) 5|237b7 247r39
+51i7 Max{integer} 5|238b7 247r44
+81V13*Value_Real{37F9} 81>25 5|256b13 267l8 267t18
+81a25 Str{string} 5|256b25 264r35 266r31
+X 5 s-valrea.adb
+45b4 Need_Extra{boolean} 52r10 56r64 135r10
+51*4 Precision_Limit{4|39M9} 56r38
+56K12 Impl[7|45] 247r14 264r14
+58M12 Base_T{3|46M9} 64r31 69r31 74r31
+64a4 Maxexp32(positive) 107r56
+69a4 Maxexp64(positive) 108r56
+74a4 Maxexp80(positive) 109r56
+79V13 Integer_to_Real{4|37F9} 80>7 81>7 82>7 83>7 84>7 85>7 92b13 229l8 229t23
+. 249s14 266s14
+80a7 Str{string} 93b7 228r43
+81*7 Val{4|39M9} 94b7 130r21
+82m7 Base{3|46M9} 95b7 100r22 107r66 108r66 109r66 113r32 143r15
+83i7 Scale{integer} 96b7 116r26
+84m7 Extra{3|46M9} 97b7 135r30 136r36
+85b7 Minus{boolean} 98b7 225r18
+106i7 Maxexp{positive} 212r27 213r44 214r31
+113*7 B{4|37F9} 136r27 209r36 213r39 217r36
+115*7 R_Val{4|37F9} 130m7 136m10 136r19 142r10 149m16 149r38 156m16 156r38
+. 163m16 163r38 170m16 170r38 183m25 183r34 187m22 187r31 191m25 191r34 195m22
+. 195r31 209m19 209r28 213m22 213r31 217m19 217r28 225r30 225r41
+116i7 S{integer} 137m10 137r15 142r32 149r45 152r40 152r51 153m19 153r24
+. 156r45 159r40 159r51 160m19 160r24 163r45 166r40 166r51 167m19 167r24 170r45
+. 181r22 182r28 184m25 184r30 187r47 190r28 192m25 192r30 195r48 208r19 209r41
+. 212r22 214m22 214r27 217r43
+176a19 Powten(4|37F9) 177m39 177r39 178m23 178r23 183r42 187r39 191r42 195r39
+240m7 Base{3|46M9} 247m49 247r49 249r41
+241i7 Scale{integer} 247m55 247r55 249r47
+242m7 Extra{3|46M9} 247m62 247r62 249r54
+243b7 Minus{boolean} 247m69 247r69 249r61
+244*7 Val{4|39M9} 247m7 249r36
+257m7 Base{3|46M9} 264m40 264r40 266r41
+258i7 Scale{integer} 264m46 264r46 266r47
+259m7 Extra{3|46M9} 264m53 264r53 266r54
+260b7 Minus{boolean} 264m60 264r60 266r61
+261*7 Val{4|39M9} 264m7 266r36
+X 6 s-valuti.ads
+34K16*Val_Util 5|34w13 34r40 6|126e20
+37U14*Bad_Value 5|228s32
+X 7 s-valuer.ads
+43b4 Round{boolean} 5|56r55
+45k16*Value_R 5|35w13 56r24 7|101e19
+48V13 Scan_Raw_Real{4|39M9} 5|247s19[56]
+91V13 Value_Raw_Real{4|39M9} 5|264s19[56]
+

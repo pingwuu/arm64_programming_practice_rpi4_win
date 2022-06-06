@@ -1,0 +1,36 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+
+U calendar%s		calendar.ads		6bf8b2ed NE OL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-calend.ads		20210728065506 474d9720 ada.calendar%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D calendar.ads		20210728065506 2cb525cd calendar%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 4|16r6 18r26
+X 2 a-calend.ads
+36K13*Calendar 413e17 4|16w10 18r30
+X 4 calendar.ads
+18K9*Calendar=18:30
+

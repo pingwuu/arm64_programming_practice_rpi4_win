@@ -1,0 +1,107 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+
+U ada.text_io.unbounded_io%s  a-tiunio.ads	38da92ea NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-charac.ads		20210728065506 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210728065506 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-finali.ads		20210728065506 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210728065506 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-strmap.ads		20210728065506 5a88892a ada.strings.maps%s
+D a-stteou.ads		20210728065506 e7ab1e2a ada.strings.text_output%s
+D a-strunb.ads		20210728065506 c56ac521 ada.strings.unbounded%s
+D a-suteio.ads		20210728065506 26d8e9aa ada.strings.unbounded.text_io%s
+D a-stuten.ads		20210728065506 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210728065506 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-textio.ads		20210728065506 aef4d56d ada.text_io%s
+D a-tiunio.ads		20210728065506 759c6b0c ada.text_io.unbounded_io%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-cstrea.ads		20210728065506 e53d8b8e interfaces.c_streams%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-atocou.ads		20210728065506 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210728065506 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-ficobl.ads		20210728065506 078245e4 system.file_control_block%s
+D s-finroo.ads		20210728065506 4ff27390 system.finalization_root%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210728065506 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+D s-wchcon.ads		20210728065506 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210728065506 ca2f9e18 unchecked_conversion%s
+G a e
+X 1 ada.ads
+16K9*Ada 20e8 17|22r6 23r6 25r9 30r12 34r12 39r12 43r12 47r12 50r12 55r12
+. 59r12 61r5
+X 8 a-string.ads
+16K13*Strings 35e16 17|22r10 23r10 29r14 30r16 33r14 34r16 38r14 39r16 42r14
+. 43r16 46r32 47r16 49r29 50r16 54r19 55r16 58r18 59r16
+X 11 a-strunb.ads
+83K21*Unbounded 762e26 17|22w18 23r18 29r22 30r24 33r22 34r24 38r22 39r24
+. 42r22 43r24 46r40 47r24 49r37 50r24 54r27 55r24 58r26 59r24
+88R9*Unbounded_String<5|43R9> 742e15 17|29r32 33r32 38r32 42r32 46r50 49r47
+. 54r37 58r36
+X 12 a-suteio.ads
+39K31*Text_IO 61e34 17|23w28 30r34 34r34 39r34 43r34 47r34 50r34 55r34 59r34
+41V13*Get_Line{11|88R9} 17|50r42
+42V13*Get_Line{11|88R9} 17|47r42
+47U14*Get_Line 17|55r42
+50U14*Get_Line 17|59r42
+53U14*Put 17|34r42
+54U14*Put 17|30r42
+55U14*Put_Line 17|43r42
+56U14*Put_Line 17|39r42
+X 16 a-textio.ads
+58K13*Text_IO 1|16k9 16|728e16 17|25r13 37r14 61r9
+65P9*File_Type 17|28r14 37r22 46r14 53r15
+X 17 a-tiunio.ads
+25K21*Unbounded_IO 16|58k13 17|61l17 61e29
+27U14*Put=30:42
+28p7 File{16|65P9}
+29r7 Item{11|88R9}
+32U14*Put=34:42
+33r7 Item{11|88R9}
+36U14*Put_Line=39:42
+37p7 File{16|65P9}
+38r7 Item{11|88R9}
+41U14*Put_Line=43:42
+42r7 Item{11|88R9}
+45V13*Get_Line=47:42{11|88R9}
+46p7 File{16|65P9}
+49V13*Get_Line=50:42{11|88R9}
+52U14*Get_Line=55:42
+53p8 File{16|65P9}
+54r8 Item{11|88R9}
+57U14*Get_Line=59:42
+58r7 Item{11|88R9}
+

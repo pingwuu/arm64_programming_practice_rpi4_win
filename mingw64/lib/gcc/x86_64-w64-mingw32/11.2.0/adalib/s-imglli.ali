@@ -1,0 +1,48 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LONG_LONG_INTEGERS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.img_lli%s	s-imglli.ads		15e60e4c NE OL PU PK
+W system%s		system.ads		system.ali
+W system.image_i%s
+
+D system.ads		20210728065506 2ffa5114 system%s
+D s-imagei.ads		20210728065506 0d3f86a7 system.image_i%s
+D s-imagei.adb		20210728065506 5fb230a8 system.image_i%b
+D s-imglli.ads		20210728065506 3723d9ff system.img_lli%s
+G a e
+G c Z s s [image_integer system__img_lli__impl 43 14 41_4]
+G c Z s s [set_image_integer system__img_lli__impl 51 14 41_4]
+G c Z s s [set_digits system__img_lli__impl 36 14 41_4]
+X 1 system.ads
+37K9*System 193e11 4|36r6 38r9 55r5
+X 2 s-imagei.ads
+40k16*Image_I 61e19 4|36w13 41r24
+43U14*Image_Integer 4|47r19[41]
+51U14*Set_Image_Integer 4|53r19[41]
+X 4 s-imglli.ads
+38K16*Img_LLI 1|37k9 4|55l12 55e19
+41K12*Impl[2|40] 47r14 53r14
+43U14*Image_Long_Long_Integer=47:19
+44i7 V{long_long_integer}
+45a7 S{string}
+46i7 P{natural}
+49U14*Set_Image_Long_Long_Integer=53:19
+50i7 V{long_long_integer}
+51a7 S{string}
+52i7 P{natural}
+

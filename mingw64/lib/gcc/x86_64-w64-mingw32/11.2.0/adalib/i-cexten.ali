@@ -1,0 +1,315 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_LONG_LONG_INTEGERS
+RV NO_STANDARD_STORAGE_POOLS
+
+U interfaces.c.extensions%s  i-cexten.ads	c98fcdf9 NE OL PU PK
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-c.ads		20210728065506 c624fa43 interfaces.c%s
+D i-cexten.ads		20210728065506 205166ae interfaces.c.extensions%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+G a e
+G c Z s s [float_128IP interfaces__c__extensions 70 9 none]
+G c Z s s [cfloat_128IP interfaces__c__extensions 79 9 none]
+X 3 interfac.ads
+38K9*Interfaces 231e15 5|37r9 64r25 65r34 851r5
+X 4 i-c.ads
+18K20*C 3|38k9 4|232e17 5|37r20 64r36 65r45 851r16
+39I9*long_long<long_long_integer> 5|64r38
+47M9*unsigned_long_long 5|65r47
+X 5 i-cexten.ads
+37K22*Extensions 4|18k20 5|851l18 851e28
+42M12*void{6|67M9}
+43M12*void_ptr{6|67M9}
+47M12*opaque_structure_def{6|67M9} 48r44
+48P9*opaque_structure_def_ptr(47M12) 49r8
+53M12*incomplete_class_def{6|67M9} 54r44
+54P9*incomplete_class_def_ptr(53M12) 55r8
+59B9*bool<boolean> 60r26
+64I12*long_long{4|39I9}
+65M12*unsigned_long_long{4|47M9} 71r19 74r32
+70R9*Float_128 72e14 73r39 74r8 80r16
+71m7*low{65M12}
+71m12*high{65M12}
+79R9*CFloat_128 81e14 82r39
+80r7*re{70R9}
+80r11*im{70R9}
+86M9*Unsigned_1 87r8
+89M9*Unsigned_2 90r8
+92M9*Unsigned_3 93r8
+95M9*Unsigned_4 96r8
+98M9*Unsigned_5 99r8
+101M9*Unsigned_6 102r8
+104M9*Unsigned_7 105r8
+107M9*Unsigned_8 108r8
+110M9*Unsigned_9 111r8
+113M9*Unsigned_10 114r8
+116M9*Unsigned_11 117r8
+119M9*Unsigned_12 120r8
+122M9*Unsigned_13 123r8
+125M9*Unsigned_14 126r8
+128M9*Unsigned_15 129r8
+131M9*Unsigned_16 132r8
+134M9*Unsigned_17 135r8
+137M9*Unsigned_18 138r8
+140M9*Unsigned_19 141r8
+143M9*Unsigned_20 144r8
+146M9*Unsigned_21 147r8
+149M9*Unsigned_22 150r8
+152M9*Unsigned_23 153r8
+155M9*Unsigned_24 156r8
+158M9*Unsigned_25 159r8
+161M9*Unsigned_26 162r8
+164M9*Unsigned_27 165r8
+167M9*Unsigned_28 168r8
+170M9*Unsigned_29 171r8
+173M9*Unsigned_30 174r8
+176M9*Unsigned_31 177r8
+179M9*Unsigned_32 180r8
+182M9*Unsigned_33 183r8
+185M9*Unsigned_34 186r8
+188M9*Unsigned_35 189r8
+191M9*Unsigned_36 192r8
+194M9*Unsigned_37 195r8
+197M9*Unsigned_38 198r8
+200M9*Unsigned_39 201r8
+203M9*Unsigned_40 204r8
+206M9*Unsigned_41 207r8
+209M9*Unsigned_42 210r8
+212M9*Unsigned_43 213r8
+215M9*Unsigned_44 216r8
+218M9*Unsigned_45 219r8
+221M9*Unsigned_46 222r8
+224M9*Unsigned_47 225r8
+227M9*Unsigned_48 228r8
+230M9*Unsigned_49 231r8
+233M9*Unsigned_50 234r8
+236M9*Unsigned_51 237r8
+239M9*Unsigned_52 240r8
+242M9*Unsigned_53 243r8
+245M9*Unsigned_54 246r8
+248M9*Unsigned_55 249r8
+251M9*Unsigned_56 252r8
+254M9*Unsigned_57 255r8
+257M9*Unsigned_58 258r8
+260M9*Unsigned_59 261r8
+263M9*Unsigned_60 264r8
+266M9*Unsigned_61 267r8
+269M9*Unsigned_62 270r8
+272M9*Unsigned_63 273r8
+275M9*Unsigned_64 276r8
+278M9*Unsigned_65 279r8
+281M9*Unsigned_66 282r8
+284M9*Unsigned_67 285r8
+287M9*Unsigned_68 288r8
+290M9*Unsigned_69 291r8
+293M9*Unsigned_70 294r8
+296M9*Unsigned_71 297r8
+299M9*Unsigned_72 300r8
+302M9*Unsigned_73 303r8
+305M9*Unsigned_74 306r8
+308M9*Unsigned_75 309r8
+311M9*Unsigned_76 312r8
+314M9*Unsigned_77 315r8
+317M9*Unsigned_78 318r8
+320M9*Unsigned_79 321r8
+323M9*Unsigned_80 324r8
+326M9*Unsigned_81 327r8
+329M9*Unsigned_82 330r8
+332M9*Unsigned_83 333r8
+335M9*Unsigned_84 336r8
+338M9*Unsigned_85 339r8
+341M9*Unsigned_86 342r8
+344M9*Unsigned_87 345r8
+347M9*Unsigned_88 348r8
+350M9*Unsigned_89 351r8
+353M9*Unsigned_90 354r8
+356M9*Unsigned_91 357r8
+359M9*Unsigned_92 360r8
+362M9*Unsigned_93 363r8
+365M9*Unsigned_94 366r8
+368M9*Unsigned_95 369r8
+371M9*Unsigned_96 372r8
+374M9*Unsigned_97 375r8
+377M9*Unsigned_98 378r8
+380M9*Unsigned_99 381r8
+383M9*Unsigned_100 384r8
+386M9*Unsigned_101 387r8
+389M9*Unsigned_102 390r8
+392M9*Unsigned_103 393r8
+395M9*Unsigned_104 396r8
+398M9*Unsigned_105 399r8
+401M9*Unsigned_106 402r8
+404M9*Unsigned_107 405r8
+407M9*Unsigned_108 408r8
+410M9*Unsigned_109 411r8
+413M9*Unsigned_110 414r8
+416M9*Unsigned_111 417r8
+419M9*Unsigned_112 420r8
+422M9*Unsigned_113 423r8
+425M9*Unsigned_114 426r8
+428M9*Unsigned_115 429r8
+431M9*Unsigned_116 432r8
+434M9*Unsigned_117 435r8
+437M9*Unsigned_118 438r8
+440M9*Unsigned_119 441r8
+443M9*Unsigned_120 444r8
+446M9*Unsigned_121 447r8
+449M9*Unsigned_122 450r8
+452M9*Unsigned_123 453r8
+455M9*Unsigned_124 456r8
+458M9*Unsigned_125 459r8
+461M9*Unsigned_126 462r8
+464M9*Unsigned_127 465r8
+467M9*Unsigned_128 468r8
+470I9*Signed_2<short_short_integer> 471r8
+473I9*Signed_3<short_short_integer> 474r8
+476I9*Signed_4<short_short_integer> 477r8
+479I9*Signed_5<short_short_integer> 480r8
+482I9*Signed_6<short_short_integer> 483r8
+485I9*Signed_7<short_short_integer> 486r8
+488I9*Signed_8<short_short_integer> 489r8
+491I9*Signed_9<short_integer> 492r8
+494I9*Signed_10<short_integer> 495r8
+497I9*Signed_11<short_integer> 498r8
+500I9*Signed_12<short_integer> 501r8
+503I9*Signed_13<short_integer> 504r8
+506I9*Signed_14<short_integer> 507r8
+509I9*Signed_15<short_integer> 510r8
+512I9*Signed_16<short_integer> 513r8
+515I9*Signed_17<integer> 516r8
+518I9*Signed_18<integer> 519r8
+521I9*Signed_19<integer> 522r8
+524I9*Signed_20<integer> 525r8
+527I9*Signed_21<integer> 528r8
+530I9*Signed_22<integer> 531r8
+533I9*Signed_23<integer> 534r8
+536I9*Signed_24<integer> 537r8
+539I9*Signed_25<integer> 540r8
+542I9*Signed_26<integer> 543r8
+545I9*Signed_27<integer> 546r8
+548I9*Signed_28<integer> 549r8
+551I9*Signed_29<integer> 552r8
+554I9*Signed_30<integer> 555r8
+557I9*Signed_31<integer> 558r8
+560I9*Signed_32<integer> 561r8
+563I9*Signed_33<long_long_integer> 564r8
+566I9*Signed_34<long_long_integer> 567r8
+569I9*Signed_35<long_long_integer> 570r8
+572I9*Signed_36<long_long_integer> 573r8
+575I9*Signed_37<long_long_integer> 576r8
+578I9*Signed_38<long_long_integer> 579r8
+581I9*Signed_39<long_long_integer> 582r8
+584I9*Signed_40<long_long_integer> 585r8
+587I9*Signed_41<long_long_integer> 588r8
+590I9*Signed_42<long_long_integer> 591r8
+593I9*Signed_43<long_long_integer> 594r8
+596I9*Signed_44<long_long_integer> 597r8
+599I9*Signed_45<long_long_integer> 600r8
+602I9*Signed_46<long_long_integer> 603r8
+605I9*Signed_47<long_long_integer> 606r8
+608I9*Signed_48<long_long_integer> 609r8
+611I9*Signed_49<long_long_integer> 612r8
+614I9*Signed_50<long_long_integer> 615r8
+617I9*Signed_51<long_long_integer> 618r8
+620I9*Signed_52<long_long_integer> 621r8
+623I9*Signed_53<long_long_integer> 624r8
+626I9*Signed_54<long_long_integer> 627r8
+629I9*Signed_55<long_long_integer> 630r8
+632I9*Signed_56<long_long_integer> 633r8
+635I9*Signed_57<long_long_integer> 636r8
+638I9*Signed_58<long_long_integer> 639r8
+641I9*Signed_59<long_long_integer> 642r8
+644I9*Signed_60<long_long_integer> 645r8
+647I9*Signed_61<long_long_integer> 648r8
+650I9*Signed_62<long_long_integer> 651r8
+653I9*Signed_63<long_long_integer> 654r8
+656I9*Signed_64<long_long_integer> 657r8
+659I9*Signed_65<long_long_long_integer> 660r8
+662I9*Signed_66<long_long_long_integer> 663r8
+665I9*Signed_67<long_long_long_integer> 666r8
+668I9*Signed_68<long_long_long_integer> 669r8
+671I9*Signed_69<long_long_long_integer> 672r8
+674I9*Signed_70<long_long_long_integer> 675r8
+677I9*Signed_71<long_long_long_integer> 678r8
+680I9*Signed_72<long_long_long_integer> 681r8
+683I9*Signed_73<long_long_long_integer> 684r8
+686I9*Signed_74<long_long_long_integer> 687r8
+689I9*Signed_75<long_long_long_integer> 690r8
+692I9*Signed_76<long_long_long_integer> 693r8
+695I9*Signed_77<long_long_long_integer> 696r8
+698I9*Signed_78<long_long_long_integer> 699r8
+701I9*Signed_79<long_long_long_integer> 702r8
+704I9*Signed_80<long_long_long_integer> 705r8
+707I9*Signed_81<long_long_long_integer> 708r8
+710I9*Signed_82<long_long_long_integer> 711r8
+713I9*Signed_83<long_long_long_integer> 714r8
+716I9*Signed_84<long_long_long_integer> 717r8
+719I9*Signed_85<long_long_long_integer> 720r8
+722I9*Signed_86<long_long_long_integer> 723r8
+725I9*Signed_87<long_long_long_integer> 726r8
+728I9*Signed_88<long_long_long_integer> 729r8
+731I9*Signed_89<long_long_long_integer> 732r8
+734I9*Signed_90<long_long_long_integer> 735r8
+737I9*Signed_91<long_long_long_integer> 738r8
+740I9*Signed_92<long_long_long_integer> 741r8
+743I9*Signed_93<long_long_long_integer> 744r8
+746I9*Signed_94<long_long_long_integer> 747r8
+749I9*Signed_95<long_long_long_integer> 750r8
+752I9*Signed_96<long_long_long_integer> 753r8
+755I9*Signed_97<long_long_long_integer> 756r8
+758I9*Signed_98<long_long_long_integer> 759r8
+761I9*Signed_99<long_long_long_integer> 762r8
+764I9*Signed_100<long_long_long_integer> 765r8
+767I9*Signed_101<long_long_long_integer> 768r8
+770I9*Signed_102<long_long_long_integer> 771r8
+773I9*Signed_103<long_long_long_integer> 774r8
+776I9*Signed_104<long_long_long_integer> 777r8
+779I9*Signed_105<long_long_long_integer> 780r8
+782I9*Signed_106<long_long_long_integer> 783r8
+785I9*Signed_107<long_long_long_integer> 786r8
+788I9*Signed_108<long_long_long_integer> 789r8
+791I9*Signed_109<long_long_long_integer> 792r8
+794I9*Signed_110<long_long_long_integer> 795r8
+797I9*Signed_111<long_long_long_integer> 798r8
+800I9*Signed_112<long_long_long_integer> 801r8
+803I9*Signed_113<long_long_long_integer> 804r8
+806I9*Signed_114<long_long_long_integer> 807r8
+809I9*Signed_115<long_long_long_integer> 810r8
+812I9*Signed_116<long_long_long_integer> 813r8
+815I9*Signed_117<long_long_long_integer> 816r8
+818I9*Signed_118<long_long_long_integer> 819r8
+821I9*Signed_119<long_long_long_integer> 822r8
+824I9*Signed_120<long_long_long_integer> 825r8
+827I9*Signed_121<long_long_long_integer> 828r8
+830I9*Signed_122<long_long_long_integer> 831r8
+833I9*Signed_123<long_long_long_integer> 834r8
+836I9*Signed_124<long_long_long_integer> 837r8
+839I9*Signed_125<long_long_long_integer> 840r8
+842I9*Signed_126<long_long_long_integer> 843r8
+845I9*Signed_127<long_long_long_integer> 846r8
+848I9*Signed_128<long_long_long_integer> 849r8
+X 6 system.ads
+37K9*System 5|35w6 42r24 43r24 47r36 53r36 6|193e11
+67M9*Address 5|42r31 43r31 47r43 53r43
+

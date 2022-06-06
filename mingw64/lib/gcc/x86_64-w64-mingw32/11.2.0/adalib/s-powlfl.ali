@@ -1,0 +1,30 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+
+U system.powten_lflt%s	s-powlfl.ads		1952f961 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20210728065506 2ffa5114 system%s
+D s-powlfl.ads		20210728065506 36a8a875 system.powten_lflt%s
+G a e
+X 1 system.ads
+37K9*System 193e11 2|34r9 355r5
+X 2 s-powlfl.ads
+34K16*Powten_LFlt 1|37k9 2|355l12 355e23
+37N4*Maxpow 44r34
+40N4*Maxpow_Exact
+44a4*Powten(long_float)
+

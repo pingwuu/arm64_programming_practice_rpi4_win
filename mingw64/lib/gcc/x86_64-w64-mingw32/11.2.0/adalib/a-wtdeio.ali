@@ -1,0 +1,187 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U ada.wide_text_io.decimal_io%b  a-wtdeio.adb	d1801b91 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W ada.wide_text_io.decimal_aux%s
+Z ada.wide_text_io.generic_aux%s  a-wtgeau.adb	a-wtgeau.ali
+W system%s		system.ads		system.ali
+W system.img_decimal_128%s  s-imde128.ads	s-imde128.ali
+W system.img_decimal_32%s  s-imde32.ads		s-imde32.ali
+W system.img_decimal_64%s  s-imde64.ads		s-imde64.ali
+W system.val_decimal_128%s  s-vade128.ads	s-vade128.ali
+W system.val_decimal_32%s  s-vade32.ads		s-vade32.ali
+W system.val_decimal_64%s  s-vade64.ads		s-vade64.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+W system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.wide_text_io.decimal_io%s  a-wtdeio.ads	151e4ce9 BN NE OL PK GE
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210728065506 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-witeio.ads		20210728065506 0f9cff17 ada.wide_text_io%s
+D a-wtdeau.ads		20210728065506 4055e676 ada.wide_text_io.decimal_aux%s
+D a-wtdeau.adb		20210728065506 cad62d87 ada.wide_text_io.decimal_aux%b
+D a-wtdeio.ads		20210728065506 1a82b3fe ada.wide_text_io.decimal_io%s
+D a-wtdeio.adb		20210728065506 9e82b4b7 ada.wide_text_io.decimal_io%b
+D a-wtgeau.ads		20210728065506 009ba30c ada.wide_text_io.generic_aux%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-cstrea.ads		20210728065506 e53d8b8e interfaces.c_streams%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-arit128.ads		20210728065506 4add960c system.arith_128%s
+D s-arit32.ads		20210728065506 6d8c80a6 system.arith_32%s
+D s-arit64.ads		20210728065506 5f88d2b0 system.arith_64%s
+D s-crtl.ads		20210728065506 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-ficobl.ads		20210728065506 078245e4 system.file_control_block%s
+D s-imaged.ads		20210728065506 fe69ad8a system.image_d%s
+D s-imde128.ads		20210728065506 617d9ba7 system.img_decimal_128%s
+D s-imde32.ads		20210728065506 76eaccd4 system.img_decimal_32%s
+D s-imde64.ads		20210728065506 d94e4600 system.img_decimal_64%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-vade128.ads		20210728065506 a41e3ce9 system.val_decimal_128%s
+D s-vade32.ads		20210728065506 28f7eebf system.val_decimal_32%s
+D s-vade64.ads		20210728065506 fff134eb system.val_decimal_64%s
+D s-valued.ads		20210728065506 a94e9aba system.value_d%s
+D s-wchcon.ads		20210728065506 1b7d22d2 system.wch_con%s
+D s-wchwts.ads		20210728065506 b3692fb2 system.wch_wts%s
+G a e
+G c Z s b [decimal_io ada__wide_text_io 25 26 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|25r9 64r5 11|32r6 42r14 49r6 55r6 61r6 190r5
+X 7 a-witeio.ads
+52K13*Wide_Text_IO 1|16k9 7|495e21 10|25r13 64r9 11|32r10 42r18 49r10 55r10
+. 61r10 190r9
+54P9*File_Type 10|32r15 41r14 11|81r15 139r14
+75I12*Field{integer} 10|27r19 28r19 29r19 34r15 38r15 43r14 44r14 45r14 49r14
+. 50r14 51r14 61r14 62r14 11|83r15 102r15 141r14 142r14 143r14 160r14 161r14
+. 162r14 171r14 172r14
+300X4*Data_Error 11|97r38 131r38
+455p4 Current_In{54P9} 11|105r12
+456p4 Current_Out{54P9} 11|165r12
+X 8 a-wtdeau.ads
+57k26*Decimal_Aux 84e33 11|32w23 49r23 55r23 61r23
+59V13 Get{13|63I9} 11|89s42[60] 91s41[54] 93s41[48]
+64U14 Put 11|147s17[60] 150s16[54] 153s16[48]
+72V13 Gets{13|63I9} 11|123s42[60] 125s41[54] 127s41[48]
+77U14 Puts 11|178s17[60] 180s16[54] 182s16[48]
+X 10 a-wtdeio.ads
+23D9 Num 28r28 33r19 37r19 42r14 48r14 55r18 60r14 11|66r34 67r34 74r32 82r19
+. 89r18 91r18 93r18 101r19 110r18 123r18 125r18 127r18 140r14 159r14 170r14
+25k26*Decimal_IO 7|52k13 10|23z9 64l22 64e32 11|42b31 190l22 190t32
+27i4*Default_Fore{7|75I12} 43r23 49r23 11|141r23 160r23
+28i4*Default_Aft{7|75I12} 44r23 50r23 61r23 11|142r23 161r23 171r23
+29i4*Default_Exp{7|75I12} 45r23 51r23 62r23 11|143r23 162r23 172r23
+31U14*Get 32>7 33<7 34>7 11|80b14 98l8 98t11 105s7
+32p7 File{7|54P9} 11|81b7 89r47 91r46 93r46
+33*7 Item{23D9} 11|82b7 89m10 91m10 93m10
+34i7 Width{7|75I12} 11|83b7 89r53 91r52 93r52
+36U14*Get 37<7 38>7 11|100b14 106l8 106t11
+37*7 Item{23D9} 11|101b7 105m24
+38i7 Width{7|75I12} 11|102b7 105r30
+40U14*Put 41>7 42>7 43>7 44>7 45>7 11|138b14 156l8 156t11 165s7
+41p7 File{7|54P9} 11|139b7 148r13 151r13 154r13
+42*7 Item{23D9} 11|140b7 148r41 151r40 154r40
+43i7 Fore{7|75I12} 11|141b7 148r48 151r47 154r47
+44i7 Aft{7|75I12} 11|142b7 148r54 151r53 154r53
+45i7 Exp{7|75I12} 11|143b7 148r59 151r58 154r58
+47U14*Put 48>7 49>7 50>7 51>7 11|158b14 166l8 166t11
+48*7 Item{23D9} 11|159b7 165r25
+49i7 Fore{7|75I12} 11|160b7 165r31
+50i7 Aft{7|75I12} 11|161b7 165r37
+51i7 Exp{7|75I12} 11|162b7 165r42
+53U14*Get 54>7 55<7 56<7 11|108b14 132l8 132t11
+54a7 From{wide_string} 11|109b7 115r53
+55*7 Item{23D9} 11|110b7 123m10 125m10 127m10
+56i7 Last{positive} 11|111b7 123m51 123r51 125m50 125r50 127m50 127r50
+58U14*Put 59<7 60>7 61>7 62>7 11|168b14 188l8 188t11
+59a7 To{wide_string} 11|169b7 174r19 174r31 186m10
+60*7 Item{23D9} 11|170b7 178r48 180r46 182r46
+61i7 Aft{7|75I12} 11|171b7 178r55 180r53 182r53
+62i7 Exp{7|75I12} 11|172b7 178r60 180r58 182r58
+X 11 a-wtdeio.adb
+44I12 Int32{13|52I9} 50r9 154r19 182r25
+45I12 Int64{13|55I9} 56r9 151r19 180r25
+46I12 Int128{13|63I9} 62r9 148r19 178r26
+48K12 Aux32[8|57] 93r35 127r35 153r10 182r10
+54K12 Aux64[8|57] 91r35 125r35 150r10 180r10
+60K12 Aux128[8|57] 89r35 123r35 147r10 178r10
+66b4 Need64{boolean} 90r13 124r13 149r13 179r13
+67b4 Need128{boolean} 88r10 122r10 146r10 177r10
+74i4 Scale{integer} 89r60 91r59 93r59 123r57 125r56 127r56 148r64 151r63
+. 154r63 178r65 180r63 182r63
+115a7 S{string} 123r48 125r47 127r47
+174a7 S{string} 178m23 180m22 182m22 185r16 186r55
+185i11 J{integer} 186r14 186r58
+X 13 interfac.ads
+38K9*Interfaces 11|44r21 45r21 46r22 13|231e15
+52I9*Integer_32<integer> 11|44r32
+55I9*Integer_64<long_long_integer> 11|45r32
+63I9*Integer_128<long_long_long_integer> 11|46r33
+X 15 system.ads
+37K9*System 11|33r6 33r34 34r6 34r34 35r6 35r34 36r6 36r34 37r6 37r34 38r6
+. 38r34 39r6 39r27 40r6 40r27 15|193e11
+X 16 s-arit128.ads
+44I12*Int128{13|63I9}
+54V13*Multiply_With_Ovflo_Check128{44I12} 55i<c,__gnat_mulv128>22
+X 18 s-arit64.ads
+44I12*Int64{13|55I9}
+54V13*Multiply_With_Ovflo_Check64{44I12} 55i<c,__gnat_mulv64>22
+X 23 s-imde128.ads
+39K16*Img_Decimal_128 11|35w13 35r41 23|63e27
+53U14*Set_Image_Decimal128=61:19 11|64r9
+X 24 s-imde32.ads
+39K16*Img_Decimal_32 11|33w13 33r41 24|63e26
+53U14*Set_Image_Decimal32=61:19 11|52r9
+X 25 s-imde64.ads
+39K16*Img_Decimal_64 11|34w13 34r41 25|63e26
+53U14*Set_Image_Decimal64=61:19 11|58r9
+X 34 s-vade128.ads
+40K16*Val_Decimal_128 11|38w13 38r41 34|60e27
+48V13*Scan_Decimal128=53:19{13|63I9} 11|63r9
+X 35 s-vade32.ads
+40K16*Val_Decimal_32 11|36w13 36r41 35|58e26
+48V13*Scan_Decimal32=53:19{13|52I9} 11|51r9
+X 36 s-vade64.ads
+40K16*Val_Decimal_64 11|37w13 37r41 36|60e26
+48V13*Scan_Decimal64=53:19{13|55I9} 11|57r9
+X 38 s-wchcon.ads
+41K16*WCh_Con 11|39w13 39r34 38|220e19
+94I9*WC_Encoding_Method<short_short_integer>
+108i4*WCEM_Upper{94I9} 11|115r59
+X 39 s-wchwts.ads
+39K16*WCh_WtS 11|40w13 40r34 39|63e19
+42V13*Wide_String_To_String{string} 11|115s30
+

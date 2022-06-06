@@ -1,0 +1,107 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.put_task_images%b  s-putaim.adb	a4c4066d NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+W ada.strings.text_output.utils%s  a-stouut.adb	a-stouut.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_conversion%s
+
+U system.put_task_images%s  s-putaim.ads	5cf79823 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-stteou.ads		20210728065506 e7ab1e2a ada.strings.text_output%s
+D a-stouut.ads		20210728065506 d02be5b1 ada.strings.text_output.utils%s
+D a-stuten.ads		20210728065506 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210728065506 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-taside.ads		20210728065506 00e3a3f6 ada.task_identification%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-c.ads		20210728065506 c624fa43 interfaces.c%s
+D i-cstrin.ads		20210728065506 341d0ddf interfaces.c.strings%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-atacco.ads		20210728065506 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-multip.ads		20210728065506 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210728065506 97504df8 system.os_interface%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-putaim.ads		20210728065506 944574eb system.put_task_images%s
+D s-putaim.adb		20210728065506 2a85092f system.put_task_images%b
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210728065506 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210728065506 601f6b72 system.task_info%s
+D s-taspri.ads		20210728065506 a1350802 system.task_primitives%s
+D s-taskin.ads		20210728065506 88fba9ad system.tasking%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+D s-win32.ads		20210728065506 15ac53fb system.win32%s
+D unchconv.ads		20210728065506 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [put_image_protected system__put_task_images 44 14 none]
+G c Z s b [put_image_task system__put_task_images 45 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|32r6 33r6 42r20 46r35 21|33r6 34r5 35r5 45r35 48r32
+X 3 a-string.ads
+16K13*Strings 35e16 20|32r10 42r24 21|33r10 34r9 35r9
+X 4 a-stteou.ads
+35K21*Text_Output 193e28 20|32w18 42r32 21|33r18 34r17 35r17
+78H9*Sink 191e14 20|42r44
+X 5 a-stouut.ads
+32K33*Utils 107e34 21|33w30 35r29
+68U14*Put_UTF_8 21|41s7 48s7
+X 9 a-taside.ads
+45K13*Task_Identification 104e28 20|33w10 46r39 21|45r39 48r36
+53P9*Task_Id<31|109P9> 20|46r59 21|45r59
+62V13*Image{string} 21|48s56
+X 14 system.ads
+37K9*System 193e11 20|35r9 48r5 21|37r14 51r5
+X 20 s-putaim.ads
+35K16*Put_Task_Images 14|37k9 20|48l12 48e27 21|37b21 51l12 51t27
+42H12*Sink{4|78R9} 44r46 46r18 21|39r46 45r18
+44U14*Put_Image_Protected 44=35 21|39b14 42l8 42t27
+44c35 S<4|78R9> 21|39b35 41m18
+45U14*Put_Image_Task 46=7 46>30 21|44b14 49l8 49t22
+46c7 S<4|78R9> 21|45b7 48m18
+46p30 Id{9|53P9} 21|45b30 48r63
+X 25 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 31 s-taskin.ads
+109P9*Task_Id(107R9)
+X 35 unchconv.ads
+20v10*Unchecked_Conversion 21|32w6
+

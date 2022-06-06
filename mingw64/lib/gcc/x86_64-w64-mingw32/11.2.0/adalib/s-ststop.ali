@@ -1,0 +1,404 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LONG_LONG_INTEGERS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.strings.stream_ops%b  s-ststop.adb	75390335 NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings%s	s-string.adb		s-string.ali
+
+U system.strings.stream_ops%s  s-ststop.ads	ec029138 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.strings%s	s-string.adb		s-string.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210728065506 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210728065506 eff36322 ada.unchecked_deallocation%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210728065506 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210728065506 8fe54fb7 system.strings%s
+D s-ststop.ads		20210728065506 5fbf1b38 system.strings.stream_ops%s
+D s-ststop.adb		20210728065506 a8c2175f system.strings.stream_ops%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+G a e
+G c Z s b [storage_array_input system__strings__stream_ops 78 13 none]
+G c Z s b [storage_array_input_blk_io system__strings__stream_ops 82 13 none]
+G c Z s b [storage_array_output system__strings__stream_ops 86 14 none]
+G c Z s b [storage_array_output_blk_io system__strings__stream_ops 90 14 none]
+G c Z s b [storage_array_read system__strings__stream_ops 94 14 none]
+G c Z s b [storage_array_read_blk_io system__strings__stream_ops 98 14 none]
+G c Z s b [storage_array_write system__strings__stream_ops 102 14 none]
+G c Z s b [storage_array_write_blk_io system__strings__stream_ops 106 14 none]
+G c Z s b [stream_element_array_input system__strings__stream_ops 114 13 none]
+G c Z s b [stream_element_array_input_blk_io system__strings__stream_ops 118 13 none]
+G c Z s b [stream_element_array_output system__strings__stream_ops 122 14 none]
+G c Z s b [stream_element_array_output_blk_io system__strings__stream_ops 126 14 none]
+G c Z s b [stream_element_array_read system__strings__stream_ops 130 14 none]
+G c Z s b [stream_element_array_read_blk_io system__strings__stream_ops 134 14 none]
+G c Z s b [stream_element_array_write system__strings__stream_ops 138 14 none]
+G c Z s b [stream_element_array_write_blk_io system__strings__stream_ops 142 14 none]
+G c Z s b [string_input system__strings__stream_ops 150 13 none]
+G c Z s b [string_input_blk_io system__strings__stream_ops 154 13 none]
+G c Z s b [string_input_tag system__strings__stream_ops 158 13 none]
+G c Z s b [string_output system__strings__stream_ops 164 14 none]
+G c Z s b [string_output_blk_io system__strings__stream_ops 168 14 none]
+G c Z s b [string_read system__strings__stream_ops 172 14 none]
+G c Z s b [string_read_blk_io system__strings__stream_ops 176 14 none]
+G c Z s b [string_write system__strings__stream_ops 180 14 none]
+G c Z s b [string_write_blk_io system__strings__stream_ops 184 14 none]
+G c Z s b [wide_string_input system__strings__stream_ops 192 13 none]
+G c Z s b [wide_string_input_blk_io system__strings__stream_ops 196 13 none]
+G c Z s b [wide_string_output system__strings__stream_ops 200 14 none]
+G c Z s b [wide_string_output_blk_io system__strings__stream_ops 204 14 none]
+G c Z s b [wide_string_read system__strings__stream_ops 208 14 none]
+G c Z s b [wide_string_read_blk_io system__strings__stream_ops 212 14 none]
+G c Z s b [wide_string_write system__strings__stream_ops 216 14 none]
+G c Z s b [wide_string_write_blk_io system__strings__stream_ops 220 14 none]
+G c Z s b [wide_wide_string_input system__strings__stream_ops 228 13 none]
+G c Z s b [wide_wide_string_input_blk_io system__strings__stream_ops 232 13 none]
+G c Z s b [wide_wide_string_output system__strings__stream_ops 236 14 none]
+G c Z s b [wide_wide_string_output_blk_io system__strings__stream_ops 240 14 none]
+G c Z s b [wide_wide_string_read system__strings__stream_ops 244 14 none]
+G c Z s b [wide_wide_string_read_blk_io system__strings__stream_ops 248 14 none]
+G c Z s b [wide_wide_string_write system__strings__stream_ops 252 14 none]
+G c Z s b [wide_wide_string_write_blk_io system__strings__stream_ops 256 14 none]
+G c Z b b [input system__strings__stream_ops__storage_array_ops 60 16 411_4]
+G c Z b b [output system__strings__stream_ops__storage_array_ops 67 17 411_4]
+G c Z b b [read system__strings__stream_ops__storage_array_ops 72 17 411_4]
+G c Z b b [write system__strings__stream_ops__storage_array_ops 77 17 411_4]
+G c Z b b [to_default_block system__strings__stream_ops__storage_array_ops 120 16 411_4]
+G c Z b b [to_array_block system__strings__stream_ops__storage_array_ops 123 16 411_4]
+G c Z b b [input system__strings__stream_ops__stream_element_array_ops 60 16 417_4]
+G c Z b b [output system__strings__stream_ops__stream_element_array_ops 67 17 417_4]
+G c Z b b [read system__strings__stream_ops__stream_element_array_ops 72 17 417_4]
+G c Z b b [write system__strings__stream_ops__stream_element_array_ops 77 17 417_4]
+G c Z b b [to_default_block system__strings__stream_ops__stream_element_array_ops 120 16 417_4]
+G c Z b b [to_array_block system__strings__stream_ops__stream_element_array_ops 123 16 417_4]
+G c Z b b [input system__strings__stream_ops__string_ops 60 16 423_4]
+G c Z b b [output system__strings__stream_ops__string_ops 67 17 423_4]
+G c Z b b [read system__strings__stream_ops__string_ops 72 17 423_4]
+G c Z b b [write system__strings__stream_ops__string_ops 77 17 423_4]
+G c Z b b [to_default_block system__strings__stream_ops__string_ops 120 16 423_4]
+G c Z b b [to_array_block system__strings__stream_ops__string_ops 123 16 423_4]
+G c Z b b [input system__strings__stream_ops__wide_string_ops 60 16 429_4]
+G c Z b b [output system__strings__stream_ops__wide_string_ops 67 17 429_4]
+G c Z b b [read system__strings__stream_ops__wide_string_ops 72 17 429_4]
+G c Z b b [write system__strings__stream_ops__wide_string_ops 77 17 429_4]
+G c Z b b [to_default_block system__strings__stream_ops__wide_string_ops 120 16 429_4]
+G c Z b b [to_array_block system__strings__stream_ops__wide_string_ops 123 16 429_4]
+G c Z b b [input system__strings__stream_ops__wide_wide_string_ops 60 16 435_4]
+G c Z b b [output system__strings__stream_ops__wide_wide_string_ops 67 17 435_4]
+G c Z b b [read system__strings__stream_ops__wide_wide_string_ops 72 17 435_4]
+G c Z b b [write system__strings__stream_ops__wide_wide_string_ops 77 17 435_4]
+G c Z b b [to_default_block system__strings__stream_ops__wide_wide_string_ops 120 16 435_4]
+G c Z b b [to_array_block system__strings__stream_ops__wide_wide_string_ops 123 16 435_4]
+X 1 ada.ads
+16K9*Ada 20e8 19|68r6 79r21 83r21 87r21 91r21 95r21 99r21 103r21 107r21 115r21
+. 116r14 119r21 120r14 123r21 124r14 127r21 128r14 131r21 132r18 135r21 136r18
+. 139r21 140r14 143r21 144r14 151r21 155r21 159r21 165r21 169r21 173r21 177r21
+. 181r21 185r21 193r21 197r21 201r21 205r21 209r21 213r21 217r21 221r21 229r21
+. 233r21 237r21 241r21 245r21 249r21 253r21 257r21 20|34r6 34r36 35r6 35r36
+. 36r6 121r13 124r13 282r24 391r24 446r21 457r21 468r21 480r21 492r21 504r21
+. 516r21 528r21 540r21 552r21 564r21 576r21 588r21 600r21 612r21 624r21 636r21
+. 647r21 658r21 669r21 681r21 693r21 705r21 717r21 729r21 741r21 752r21 763r21
+. 775r21 787r21 799r21 811r21 823r21 835r21 846r21 857r21 869r21 881r21 893r21
+. 905r21 917r21
+X 3 a-ioexce.ads
+18K13*IO_Exceptions 30e22 20|34w10 34r40
+26X4*End_Error 20|300r25
+X 4 a-stream.ads
+36K13*Streams 87e16 19|68w10 79r25 83r25 87r25 91r25 95r25 99r25 103r25 107r25
+. 115r25 116r18 119r25 120r18 123r25 124r18 127r25 128r18 131r25 132r22 135r25
+. 136r22 139r25 140r18 143r25 144r18 151r25 155r25 159r25 165r25 169r25 173r25
+. 177r25 181r25 185r25 193r25 197r25 201r25 205r25 209r25 213r25 217r25 221r25
+. 229r25 233r25 237r25 241r25 245r25 249r25 253r25 257r25 20|35w10 35r40
+. 446r25 457r25 468r25 480r25 492r25 504r25 516r25 528r25 540r25 552r25 564r25
+. 576r25 588r25 600r25 612r25 624r25 636r25 647r25 658r25 669r25 681r25 693r25
+. 705r25 717r25 729r25 741r25 752r25 763r25 775r25 787r25 799r25 811r25 823r25
+. 835r25 846r25 857r25 869r25 881r25 893r25 905r25 917r25
+39H9*Root_Stream_Type 70e64 19|79r33 83r33 87r33 91r33 95r33 99r33 103r33
+. 107r33 115r33 119r33 123r33 127r33 131r33 135r33 139r33 143r33 151r33 155r33
+. 159r33 165r33 169r33 173r33 177r33 181r33 185r33 193r33 197r33 201r33 205r33
+. 209r33 213r33 217r33 221r33 229r33 233r33 237r33 241r33 245r33 249r33 253r33
+. 257r33 20|61r30 68r24 73r24 78r24 131r30 174r24 198r24 323r24 446r33 457r33
+. 468r33 480r33 492r33 504r33 516r33 528r33 540r33 552r33 564r33 576r33 588r33
+. 600r33 612r33 624r33 636r33 647r33 658r33 669r33 681r33 693r33 705r33 717r33
+. 729r33 741r33 752r33 763r33 775r33 787r33 799r33 811r33 823r33 835r33 846r33
+. 857r33 869r33 881r33 893r33 905r33 917r33
+42M9*Stream_Element 20|98r37 419r25
+44I9*Stream_Element_Offset<long_long_integer> 20|113r15 246r23 247r23 275r30
+. 384r30 420r25
+54A9*Stream_Element_Array(42M9)<44I9> 19|116r26 120r26 124r26 128r26 132r30
+. 136r30 140r26 144r26 20|112r32 274r43 383r43 421r25 541r14 553r14 565r14
+. 577r14 589r18 601r18 613r14 625r14
+57x14*Read 20|259R25 287R22
+63x14*Write 20|374R19 394R22
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 20|36w10 121r17 124r17 282r28 391r28
+X 8 system.ads
+37K9*System 193e11 19|70r6 72r9 80r14 84r14 88r14 92r14 96r18 100r18 104r14
+. 108r14 260r5 20|38w6 38r36 39r6 39r36 40r6 42r14 924r5
+81V14*"="{boolean} 20|209r25 334r25
+X 15 s-stoele.ads
+42K16*Storage_Elements 117e28 19|70w13 80r21 84r21 88r21 92r21 96r25 100r25
+. 104r21 108r21 20|39w13 39r43
+54I9*Storage_Offset<long_long_integer> 20|414r25
+64M9*Storage_Element 20|413r25
+70A9*Storage_Array(64M9)<54I9> 19|80r38 84r38 88r38 92r38 96r42 100r42 104r38
+. 108r38 20|415r25 446r64 457r64 469r14 481r14 493r18 505r18 517r14 529r14
+X 17 s-stratt.ads
+44K16*Stream_Attributes 227e29 20|40w13 215r36 340r36
+174V13*Block_IO_OK{boolean} 20|215s54 340s54
+X 18 s-string.ads
+42K16*Strings 8|37k9 18|63e19 19|72r16 260r12 20|42r21 924r12
+X 19 s-ststop.ads
+72K24*Stream_Ops 18|42k16 19|260l20 260e30 20|42b29 924l20 924t30
+78V13*Storage_Array_Input{15|70A9} 79^7 20|445b13 450l8 450t27
+79p7 Strm(4|39R9) 20|446b7 449r39
+82V13*Storage_Array_Input_Blk_IO{15|70A9} 83^7 20|456b13 461l8 461t34
+83p7 Strm(4|39R9) 20|457b7 460r39
+86U14*Storage_Array_Output 87^7 88>7 20|467b14 473l8 473t28
+87p7 Strm(4|39R9) 20|468b7 472r33
+88a7 Item{15|70A9} 20|469b7 472r39
+90U14*Storage_Array_Output_Blk_IO 91^7 92>7 20|479b14 485l8 485t35
+91p7 Strm(4|39R9) 20|480b7 484r33
+92a7 Item{15|70A9} 20|481b7 484r39
+94U14*Storage_Array_Read 95^7 96<7 20|491b14 497l8 497t26
+95p7 Strm(4|39R9) 20|492b7 496r31
+96a7 Item{15|70A9} 20|493b7 496m37
+98U14*Storage_Array_Read_Blk_IO 99^7 100<7 20|503b14 509l8 509t33
+99p7 Strm(4|39R9) 20|504b7 508r31
+100a7 Item{15|70A9} 20|505b7 508m37
+102U14*Storage_Array_Write 103^7 104>7 20|515b14 521l8 521t27
+103p7 Strm(4|39R9) 20|516b7 520r32
+104a7 Item{15|70A9} 20|517b7 520r38
+106U14*Storage_Array_Write_Blk_IO 107^7 108>7 20|527b14 533l8 533t34
+107p7 Strm(4|39R9) 20|528b7 532r32
+108a7 Item{15|70A9} 20|529b7 532r38
+114V13*Stream_Element_Array_Input{4|54A9} 115^7 20|539b13 545l8 545t34
+115p7 Strm(4|39R9) 20|540b7 544r46
+118V13*Stream_Element_Array_Input_Blk_IO{4|54A9} 119^7 20|551b13 557l8 557t41
+119p7 Strm(4|39R9) 20|552b7 556r46
+122U14*Stream_Element_Array_Output 123^7 124>7 20|563b14 569l8 569t35
+123p7 Strm(4|39R9) 20|564b7 568r40
+124a7 Item{4|54A9} 20|565b7 568r46
+126U14*Stream_Element_Array_Output_Blk_IO 127^7 128>7 20|575b14 581l8 581t42
+127p7 Strm(4|39R9) 20|576b7 580r40
+128a7 Item{4|54A9} 20|577b7 580r46
+130U14*Stream_Element_Array_Read 131^7 132<7 20|587b14 593l8 593t33
+131p7 Strm(4|39R9) 20|588b7 592r38
+132a7 Item{4|54A9} 20|589b7 592m44
+134U14*Stream_Element_Array_Read_Blk_IO 135^7 136<7 20|599b14 605l8 605t40
+135p7 Strm(4|39R9) 20|600b7 604r38
+136a7 Item{4|54A9} 20|601b7 604m44
+138U14*Stream_Element_Array_Write 139^7 140>7 20|611b14 617l8 617t34
+139p7 Strm(4|39R9) 20|612b7 616r39
+140a7 Item{4|54A9} 20|613b7 616r45
+142U14*Stream_Element_Array_Write_Blk_IO 143^7 144>7 20|623b14 629l8 629t41
+143p7 Strm(4|39R9) 20|624b7 628r39
+144a7 Item{4|54A9} 20|625b7 628r45
+150V13*String_Input{string} 151^7 20|635b13 640l8 640t20
+151p7 Strm(4|39R9) 20|636b7 639r32
+154V13*String_Input_Blk_IO{string} 155^7 20|646b13 651l8 651t27
+155p7 Strm(4|39R9) 20|647b7 650r32
+158V13*String_Input_Tag{string} 159^7 20|657b13 662l8 662t24
+159p7 Strm(4|39R9) 20|658b7 661r32
+164U14*String_Output 165^7 166>7 20|668b14 674l8 674t21
+165p7 Strm(4|39R9) 20|669b7 673r26
+166a7 Item{string} 20|670b7 673r32
+168U14*String_Output_Blk_IO 169^7 170>7 20|680b14 686l8 686t28
+169p7 Strm(4|39R9) 20|681b7 685r26
+170a7 Item{string} 20|682b7 685r32
+172U14*String_Read 173^7 174<7 20|692b14 698l8 698t19
+173p7 Strm(4|39R9) 20|693b7 697r24
+174a7 Item{string} 20|694b7 697m30
+176U14*String_Read_Blk_IO 177^7 178<7 20|704b14 710l8 710t26
+177p7 Strm(4|39R9) 20|705b7 709r24
+178a7 Item{string} 20|706b7 709m30
+180U14*String_Write 181^7 182>7 20|716b14 722l8 722t20
+181p7 Strm(4|39R9) 20|717b7 721r25
+182a7 Item{string} 20|718b7 721r31
+184U14*String_Write_Blk_IO 185^7 186>7 20|728b14 734l8 734t27
+185p7 Strm(4|39R9) 20|729b7 733r25
+186a7 Item{string} 20|730b7 733r31
+192V13*Wide_String_Input{wide_string} 193^7 20|740b13 745l8 745t25
+193p7 Strm(4|39R9) 20|741b7 744r37
+196V13*Wide_String_Input_Blk_IO{wide_string} 197^7 20|751b13 756l8 756t32
+197p7 Strm(4|39R9) 20|752b7 755r37
+200U14*Wide_String_Output 201^7 202>7 20|762b14 768l8 768t26
+201p7 Strm(4|39R9) 20|763b7 767r31
+202a7 Item{wide_string} 20|764b7 767r37
+204U14*Wide_String_Output_Blk_IO 205^7 206>7 20|774b14 780l8 780t33
+205p7 Strm(4|39R9) 20|775b7 779r31
+206a7 Item{wide_string} 20|776b7 779r37
+208U14*Wide_String_Read 209^7 210<7 20|786b14 792l8 792t24
+209p7 Strm(4|39R9) 20|787b7 791r29
+210a7 Item{wide_string} 20|788b7 791m35
+212U14*Wide_String_Read_Blk_IO 213^7 214<7 20|798b14 804l8 804t31
+213p7 Strm(4|39R9) 20|799b7 803r29
+214a7 Item{wide_string} 20|800b7 803m35
+216U14*Wide_String_Write 217^7 218>7 20|810b14 816l8 816t25
+217p7 Strm(4|39R9) 20|811b7 815r30
+218a7 Item{wide_string} 20|812b7 815r36
+220U14*Wide_String_Write_Blk_IO 221^7 222>7 20|822b14 828l8 828t32
+221p7 Strm(4|39R9) 20|823b7 827r30
+222a7 Item{wide_string} 20|824b7 827r36
+228V13*Wide_Wide_String_Input{wide_wide_string} 229^7 20|834b13 839l8 839t30
+229p7 Strm(4|39R9) 20|835b7 838r42
+232V13*Wide_Wide_String_Input_Blk_IO{wide_wide_string} 233^7 20|845b13 850l8
+. 850t37
+233p7 Strm(4|39R9) 20|846b7 849r42
+236U14*Wide_Wide_String_Output 237^7 238>7 20|856b14 862l8 862t31
+237p7 Strm(4|39R9) 20|857b7 861r36
+238a7 Item{wide_wide_string} 20|858b7 861r42
+240U14*Wide_Wide_String_Output_Blk_IO 241^7 242>7 20|868b14 874l8 874t38
+241p7 Strm(4|39R9) 20|869b7 873r36
+242a7 Item{wide_wide_string} 20|870b7 873r42
+244U14*Wide_Wide_String_Read 245^7 246<7 20|880b14 886l8 886t29
+245p7 Strm(4|39R9) 20|881b7 885r34
+246a7 Item{wide_wide_string} 20|882b7 885m40
+248U14*Wide_Wide_String_Read_Blk_IO 249^7 250<7 20|892b14 898l8 898t36
+249p7 Strm(4|39R9) 20|893b7 897r34
+250a7 Item{wide_wide_string} 20|894b7 897m40
+252U14*Wide_Wide_String_Write 253^7 254>7 20|904b14 910l8 910t30
+253p7 Strm(4|39R9) 20|905b7 909r35
+254a7 Item{wide_wide_string} 20|906b7 909r41
+256U14*Wide_Wide_String_Write_Blk_IO 257^7 258>7 20|916b14 922l8 922t37
+257p7 Strm(4|39R9) 20|917b7 921r35
+258a7 Item{wide_wide_string} 20|918b7 921r41
+X 20 s-ststop.adb
+47E9 IO_Kind 47e39 62r23 70r17 75r17 80r17 132r23 176r17 200r17 325r17
+47n21 Byte_IO{47E9} 449r45 472r45 496r43 520r44 544r52 568r52 592r50 616r51
+. 639r38 673r38 697r36 721r37 744r43 767r43 791r41 815r42 838r48 861r48 885r46
+. 909r47
+47n30 Block_IO{47E9} 215r18 340r18 460r45 484r45 508r43 532r44 556r52 580r52
+. 604r50 628r51 650r38 661r38 685r38 709r36 733r37 755r43 779r43 803r41 827r42
+. 849r48 873r48 897r46 921r47
+55+12 Element_Type 57r57 97r37 308r20 311r19 403r16 413r9 419r9 425r9 431r9
+. 437r9
+56I12 Index_Type 57r33 103r38 104r31 116r21 146r25 151r13 152r13 185r10 186r10
+. 241r23 242r23 278r36 279r42 366r23 367r23 387r36 388r43 414r9 420r9 426r9
+. 432r9 438r9
+57A12 Array_Type(55+12)<56I12> 63r65 69r17 74r21 79r17 116r9 133r65 161r23
+. 175r17 199r21 278r24 324r17 387r24 415r9 421r9 427r9 433r9 439r9
+59k12 Stream_Ops_Internal 55z12 56z12 57z12 81l8 81e27 87b17 407l8 407t27
+. 412r10 418r10 424r10 430r10 436r10
+60V16*Input{57A12} 61^10 62>10 63>10 130b16 167l11 167t16 449s32[411] 460s32[411]
+. 544s39[417] 556s39[417] 639s25[423] 650s25[423] 661s25[423] 744s30[429]
+. 755s30[429] 838s35[435] 849s35[435]
+61p10 Strm(4|39R9) 131b10 141r13 151r30 152r30 163r22
+62e10 IO{47E9} 132b10 163r34
+63i10 Max_Length{long_integer} 133b10 154r59 661r48[423]
+67U17*Output 68^10 69>10 70>10 173b17 191l11 191t17 472s25[411] 484s25[411]
+. 568s32[417] 580s32[417] 673s18[423] 685s18[423] 767s23[429] 779s23[429]
+. 861s28[435] 873s28[435]
+68p10 Strm(4|39R9) 174b10 179r13 185r28 186r28 190r17
+69*10 Item{57A12} 175b10 185r34 186r34 190r23
+70e10 IO{47E9} 176b10 190r29
+72U17*Read 73^10 74<10 75>10 163s16 197b17 316l11 316t15 496s25[411] 508s25[411]
+. 592s32[417] 604s32[417] 697s18[423] 709s18[423] 791s23[429] 803s23[429]
+. 885s28[435] 897s28[435]
+73p10 Strm(4|39R9) 198b10 203r13 259r31 287r28 311r38
+74*10 Item{57A12} 199b10 209r13 223r18 241r37 260m25 288m22 288r35 299r57
+. 310r29 310r43 312m19
+75e10 IO{47E9} 200b10 215r13
+77U17*Write 78^10 79>10 80>10 190s10 322b17 406l11 406t16 520s25[411] 532s25[411]
+. 616s32[417] 628s32[417] 721s18[423] 733s18[423] 815s23[429] 827s23[429]
+. 909s28[435] 921s28[435]
+78p10 Strm(4|39R9) 323b10 328r13 374r26 394r29 403r36
+79*10 Item{57A12} 324b10 334r13 348r18 366r37 374r54 394r53 394r66 402r26
+. 402r40 403r42
+80e10 IO{47E9} 325b10 340r13
+93N7 Default_Block_Size 104r43 107r49 230r59 237r55 355r59 362r55
+97i7 ET_Size{integer} 104r64 223r51 279r65 299r47 348r51 388r66
+98i7 SE_Size{integer} 107r70 275r64 299r36 384r64
+103*7 AE_In_Default_Block{56I12} 116r43 242r43 263r39 367r43 376r33
+107i7 SE_In_Default_Block{integer} 113r38
+112A15 Default_Block{4|54A9}<4|44I9> 121r52 124r39 255r30
+115A15 Array_Block{57A12}<56I12> 121r39 124r54
+120V16 To_Default_Block[6|20]{4|54A9} 374s36
+123V16 To_Array_Block[6|20]{57A12} 260s47
+146*13 Low 151m36 151r36 154r52 161r35
+146*18 High 152m36 152r36 154r30 161r42
+161*16 Item{57A12} 163m28 164r23
+222i16 Block_Size{long_long_integer} 230r27 237r21
+229i16 Blocks{natural} 253r19 258r42
+235i16 Rem_Size{natural} 272r19 275r53 279r54
+241*16 Low{56I12} 242r37 260r31 262m25 263r33 288r28
+242*16 High{56I12} 260r38 262r33 263m25
+246i16 Last{4|44I9} 259m48 264r39 265m25 287m45 290r35
+247i16 Sum{4|44I9} 264m25 264r33 290m22 290r29 299r29
+255a22 Block{112A15} 259m41 260r63
+258i26 Counter{integer}
+274A30 Rem_Block{4|54A9}<4|44I9> 282r50 284r30
+277A30 Rem_Array_Block{57A12}<56I12> 282r61
+281V31 To_Rem_Array_Block[6|20]{57A12} 288s49
+284a22 Block{274A30} 287m38 288r69
+308*16 E{55+12} 311m44 311r44 312r35
+310i20 Index 312r25
+347i16 Block_Size{long_long_integer} 355r27 362r21
+354i16 Blocks{natural} 373r36
+360i16 Rem_Size{natural} 381r19 384r53 388r55
+366*16 Low{56I12} 367r37 374r60 375m19 376r27 394r59
+367*16 High{56I12} 374r67 375r27 376m19
+373i20 Counter{integer}
+383A30 Rem_Block{4|54A9}<4|44I9> 391r67
+386A30 Rem_Array_Block{57A12}<56I12> 391r50
+390V31 To_Rem_Block[6|20]{4|54A9} 394s39
+402i17 Index 403r48
+411K12 Storage_Array_Ops[59] 449r14 460r14 472r7 484r7 496r7 508r7 520r7
+. 532r7
+417K12 Stream_Element_Array_Ops[59] 544r14 556r14 568r7 580r7 592r7 604r7
+. 616r7 628r7
+423K12 String_Ops[59] 639r14 650r14 661r14 673r7 685r7 697r7 709r7 721r7
+. 733r7
+429K12 Wide_String_Ops[59] 744r14 755r14 767r7 779r7 791r7 803r7 815r7 827r7
+435K12 Wide_Wide_String_Ops[59] 838r14 849r14 861r7 873r7 885r7 897r7 909r7
+. 921r7
+

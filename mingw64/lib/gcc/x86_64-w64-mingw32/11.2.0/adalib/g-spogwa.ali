@@ -1,0 +1,150 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+
+U gnat.sockets.poll.g_wait%b  g-spogwa.adb	ece7d89d NE OL SU GE
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W gnat.sockets.poll%s	g-socpol.adb		g-socpol.ali
+W gnat.sockets.thin_common%s  g-sothco.adb	g-sothco.ali
+
+U gnat.sockets.poll.g_wait%s  g-spogwa.ads	9310bf8d BN EE NE OL GE
+W gnat.sockets.poll%s	g-socpol.adb		g-socpol.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-charac.ads		20210728065506 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210728065506 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-finali.ads		20210728065506 bf4f806b ada.finalization%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-strmap.ads		20210728065506 5a88892a ada.strings.maps%s
+D a-stteou.ads		20210728065506 e7ab1e2a ada.strings.text_output%s
+D a-strunb.ads		20210728065506 c56ac521 ada.strings.unbounded%s
+D a-stuten.ads		20210728065506 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210728065506 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210728065506 eff36322 ada.unchecked_deallocation%s
+D gnat.ads		20210728065506 b5988c27 gnat%s
+D g-socket.ads		20210728065506 a1860ed7 gnat.sockets%s
+D g-socpol.ads		20210728065506 6f74da53 gnat.sockets.poll%s
+D g-spogwa.ads		20210728065506 3a409f9d gnat.sockets.poll.g_wait%s
+D g-spogwa.adb		20210728065506 b691f2fb gnat.sockets.poll.g_wait%b
+D g-sothco.ads		20210728065506 6036b5fb gnat.sockets.thin_common%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-c.ads		20210728065506 c624fa43 interfaces.c%s
+D i-cstrin.ads		20210728065506 341d0ddf interfaces.c.strings%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-atocou.ads		20210728065506 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-finmas.ads		20210728065506 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210728065506 4ff27390 system.finalization_root%s
+D s-oscons.ads		20220226142510 6fe7f1ab system.os_constants%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-pooglo.ads		20210728065506 ede33ef8 system.pool_global%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210728065506 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210728065506 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+D s-win32.ads		20210728065506 15ac53fb system.win32%s
+D unchconv.ads		20210728065506 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [g_wait gnat__sockets__poll 41 29 none]
+X 16 gnat.ads
+34K9*GNAT 57e9 19|41r11 20|32r6 34r11 137r5
+X 17 g-socket.ads
+56K14*Sockets 1580e17 19|41r16 20|32r11 34r16 137r10
+X 18 g-socpol.ads
+37K22*Poll 216e22 19|41r24 20|34r24 137r18
+71R9*Set 208e14 19|42r17 20|35r17
+179K12 SOC=179:31 20|79r26 79r40 84r25 121r36 125r59 129r59
+186I9 FD_Type<long_long_integer> 19|38r43 40r36
+189M9 Events_Type 20|59r16
+193i7*Socket{186I9} 20|80r50 85r50 89r47 91r22 118r49 124r49 128r49
+194m7*Events{189M9} 20|77r32
+195m7*REvents{189M9} 20|75m19 121m25 125m25 125r48 129m25 129r48 132r25
+198A9 Poll_Set(192R9)<integer>
+201i7*Length{natural} 20|74r34 117r37
+202i7*Max_FD{186I9} 20|91r35 110r27
+207a7*Fds{198A9} 20|74r17 75m11 77r24 80r42 85r42 89r39 91r14 117r20 118r41
+. 121m17 124r41 125m17 125r40 128r41 129m17 129r40 132r17
+X 19 g-spogwa.ads
+35+9 FD_Set_Type 36r50 38r25 40r18 20|41r26 42r26 43r26 50r24 52r24 54r24
+. 56r23 57r23
+36U19 Reset_Socket_Set 36=37 20|70s4 71s4 72s4
+36*37 Set{35+9}
+37U19 Insert_Socket_In_Set 38=12 38>38 20|80s10 85s10 89s7
+38*12 Set{35+9}
+38i38 FD{18|186I9}
+39V18 Is_Socket_In_Set{23|35I9} 40>12 40>31 20|118s13 124s13 128s13
+40*12 Set{35+9}
+40i31 FD{18|186I9}
+41u29*G_Wait 18|37k22 19|42=4 42>22 42<50 20|34b29 137l23 137t29
+42r4 Fds{18|71R9} 20|35b4 74r13 74r30 75m7 77r20 80r38 85r38 89r35 91r10
+. 91r31 110r23 117r16 117r33 118r37 121m13 124r37 125m13 125r36 128r37 129m13
+. 129r36 132r13
+42i22 Timeout{23|35I9} 20|35b22 64r7 66r49 67r53
+42i50 Result{integer} 20|35b50 109m4 114r7 115m7 133m13 133r23
+X 20 g-spogwa.adb
+39V13*C_Select{integer} 40>7 41^7 42^7 43^7 44^7 110s6
+40i7 Nfds{23|35I9}
+41p7 readfds(19|35+9)
+42p7 writefds(19|35+9)
+43p7 exceptfds(19|35+9)
+44p7 timeout(21|58R9)
+47r4 Timeout_V{21|58R9} 65m20 65r20 66m7 67m7
+48p4 Timeout_A(21|58R9) 65m7 110r67
+50*4 Rfds{19|35+9} 70m22 70r22 80m32 80r32 100m16 100r16 118r31
+51i4 Rcount{natural} 81m10 81r20 99r7
+52*4 Wfds{19|35+9} 71m22 71r22 85m32 85r32 104m16 104r16 124r31
+53i4 Wcount{natural} 86m10 86r20 103r7
+54*4 Efds{19|35+9} 72m22 72r22 89m29 89r29 110m54 110r54 128r31
+56p4 Rfdsa(19|35+9) 100m7 110r40
+57p4 Wfdsa(19|35+9) 104m7 110r47
+59m4 FD_Events{18|189M9} 77m7 79r11 84r11
+74i8 J{integer} 75r16 77r29 80r47 85r47 89r44 91r19
+74l41 loop 94e12
+117i11 J{integer} 118r46 121r22 124r46 125r22 125r45 128r46 129r22 129r45
+. 132r22
+117l44 loop 135e15
+X 21 g-sothco.ads
+38K22*Thin_Common 20|32w19 44r26 47r24 48r23 66r28 67r28 21|498e29
+46I9*time_t<integer> 20|66r40
+52I9*suseconds_t<integer> 20|67r40
+58R9*Timeval 20|44r38 47r36 48r35 21|61e14
+59i7*Tv_Sec{46I9} 20|66m17
+60i7*Tv_Usec{52I9} 20|67m17
+X 22 interfac.ads
+38K9*Interfaces 19|32r6 40r52 42r32 20|35r32 37r8 22|231e15
+X 23 i-c.ads
+18K20*C 19|32w17 40r63 42r43 20|35r43 40r19 110r16 23|232e17
+35I9*int<integer> 19|40r65 42r45 20|35r45 40r21 110r18
+X 30 s-oscons.ads
+349N4*POLLIN 20|79r30 121r40
+350N4*POLLPRI 20|79r44
+351N4*POLLOUT 20|84r29 125r63
+352N4*POLLERR 20|129r63
+

@@ -1,0 +1,69 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+
+U ada.unchecked_deallocate_subpool%b  a-undesu.adb  fe6bf1f5 NE OL PU SU
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.storage_pools.subpools.finalization%s  s-spsufi.adb  s-spsufi.ali
+
+U ada.unchecked_deallocate_subpool%s  a-undesu.ads  121b0fd0 NE OL SU
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-finali.ads		20210728065506 bf4f806b ada.finalization%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-undesu.ads		20210728065506 8632051e ada.unchecked_deallocate_subpool%s
+D a-undesu.adb		20210728065506 f3810922 ada.unchecked_deallocate_subpool%b
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-finmas.ads		20210728065506 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210728065506 4ff27390 system.finalization_root%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210728065506 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20210728065506 e251976f system.storage_pools.subpools%s
+D s-spsufi.ads		20210728065506 69896aa6 system.storage_pools.subpools.finalization%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+G a e
+G c Z s b [unchecked_deallocate_subpool ada 18 15 none]
+X 1 ada.ads
+16K9*Ada 20e8 7|18r11 8|38r11 43r5
+X 7 a-undesu.ads
+18U15*Unchecked_Deallocate_Subpool 1|16k9 7|19=4 8|38b15 43l9 43t37
+19p4 Subpool{21|56P9} 8|39b4 42m29
+X 9 system.ads
+37K9*System 7|16r6 19r21 8|32r6 33r6 35r5 36r5 39r21 9|193e11
+X 20 s-stopoo.ads
+39K16*Storage_Pools 7|16r13 19r28 8|32r13 33r13 35r12 36r12 39r28 20|100e25
+X 21 s-stposu.ads
+40K30*Subpools 7|16w27 19r42 8|32w27 33r27 35r26 36r26 39r42 21|360e34
+56P9*Subpool_Handle(51R9) 7|19r51 8|39r51
+X 22 s-spsufi.ads
+34K39*Finalization 8|33w36 36r35 22|48e47
+41U14*Finalize_And_Deallocate 8|42s4
+

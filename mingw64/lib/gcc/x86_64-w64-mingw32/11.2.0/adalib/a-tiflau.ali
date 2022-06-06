@@ -1,0 +1,121 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.text_io.float_aux%b  a-tiflau.adb		44196720 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W system%s		system.ads		system.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U ada.text_io.float_aux%s  a-tiflau.ads		e0979dba BN NE OL PK GE
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210728065506 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-textio.ads		20210728065506 aef4d56d ada.text_io%s
+D a-tiflau.ads		20210728065506 4e6348d7 ada.text_io.float_aux%s
+D a-tiflau.adb		20210728065506 73a27596 ada.text_io.float_aux%b
+D a-tigeau.ads		20210728065506 e643cdf3 ada.text_io.generic_aux%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-cstrea.ads		20210728065506 e53d8b8e interfaces.c_streams%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-crtl.ads		20210728065506 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-ficobl.ads		20210728065506 078245e4 system.file_control_block%s
+D s-imgrea.ads		20210728065506 9f9b9792 system.img_real%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-wchcon.ads		20210728065506 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [float_aux ada__text_io 48 21 none]
+X 1 ada.ads
+16K9*Ada 20e8 7|48r9 73r5 8|32r6 32r35 36r14 134r5
+X 6 a-textio.ads
+58K13*Text_IO 1|16k9 6|728e16 7|48r13 73r9 8|32r10 32r39 36r18 134r9
+65P9*File_Type 7|51r15 56r14 8|43r15 89r14
+87I12*Field{integer} 7|53r15 58r14 59r14 60r14 70r14 71r14 8|45r15 47r27
+. 91r14 92r14 93r14 110r14 111r14
+549X4*Data_Error 8|81r38
+550X4*Layout_Error 8|121r16
+X 7 a-tiflau.ads
+41F9 Num 46r29 52r19 57r14 64r18 69r14 8|44r19 70r18 90r14 109r14
+43V18 Scan{41F9} 44>7 45^7 46>7 8|60s15 77s15
+44a7 Str{string}
+45p7 Ptr(integer)
+46i7 Max{integer}
+48k21*Float_Aux 6|58k13 7|41z9 43z18 73l17 73e26 8|36b26 134l17 134t26
+50U14*Get 51>7 52<7 53>7 8|42b14 62l8 62t11
+51p7 File{6|65P9} 8|43b7 53r22 56r21
+52*7 Item{41F9} 8|44b7 60m7
+53i7 Width{6|87I12} 8|45b7 52r10 53r28 61r43
+55U14*Put 56>7 57>7 58>7 59>7 60>7 8|88b14 101l8 101t11
+56p7 File{6|65P9} 8|89b7 100r17
+57*7 Item{41F9} 8|90b7 99r40
+58i7 Fore{6|87I12} 8|91b7 99r57
+59i7 Aft{6|87I12} 8|92b7 99r63
+60i7 Exp{6|87I12} 8|93b7 99r68
+62U14*Gets 63>7 64<7 65<7 8|68b14 82l8 82t12
+63a7 From{string} 8|69b7 76r20 77r21 77r39
+64*7 Item{41F9} 8|70b7 77m7
+65i7 Last{positive} 8|71b7 78m7
+67U14*Puts 68<7 69>7 70>7 71>7 8|107b14 132l8 132t12
+68a7 To{string} 8|108b7 120r16 125m13 125r17 128r19 128r31 129m13
+69*7 Item{41F9} 8|109b7 118r27
+70i7 Aft{6|87I12} 8|110b7 118r62
+71i7 Exp{6|87I12} 8|111b7 118r74
+X 8 a-tiflau.adb
+47a7 Buf{string} 53m35 54r23 56m27 60r21 61r27
+48i7 Stop{integer} 53m40 53r40 56m32 56r32 60r38 61r32
+49i7 Ptr{integer} 54m28 57m10 60m26 60r26 61r38
+73i7 Pos{integer} 76m26 77m27 77r27 78r15
+95a7 Buf{string} 99m47 100r23
+96i7 Ptr{natural} 99m52 99r52 100r33
+113a7 Buf{string} 118m34 125r39
+114i7 Ptr{natural} 118m39 118r39 120r10 124r24 125r27 128r41
+124i14 J{integer} 125r33 125r44
+128i14 J{integer} 129r17
+X 9 a-tigeau.ads
+35K29*Generic_Aux 8|32w18 32r47 9|203e28
+44U14*Check_End_Of_Field 8|61s7
+79U14*Load_Width 8|53s10
+159U14*Load_Real 8|56s10
+169U14*Put_Item 8|100s7
+188U14*String_Skip 8|54s10 76s7
+X 13 system.ads
+37K9*System 8|34r6 34r27 13|193e11
+X 17 s-imgrea.ads
+34K16*Img_Real 8|34w13 34r34 17|84e20
+64U14*Set_Image_Real 8|99s7 117s7
+68i7 Fore{natural} 8|118r44
+69i7 Aft{natural} 8|118r55
+70i7 Exp{natural} 8|118r67
+79N4*Max_Real_Image_Length 8|95r26 113r26
+

@@ -1,0 +1,109 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U ada.long_float_text_io%b  a-lfteio.ads	4969a46f NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s
+Z ada.text_io.float_io%s
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W system%s		system.ads		system.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.val_flt%s	s-valflt.ads		s-valflt.ali
+Z system.val_lflt%s	s-vallfl.ads		s-vallfl.ali
+Z system.val_llf%s	s-valllf.ads		s-valllf.ali
+
+U ada.long_float_text_io%s  a-lfteio.ads	91e5eca3 EB NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_io%s
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210728065506 e4a01f64 ada.io_exceptions%s
+D a-lfteio.ads		20210728065506 4969a46f ada.long_float_text_io%s
+D a-lfteio.ads		20210728065506 4969a46f ada.long_float_text_io%b
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-textio.ads		20210728065506 aef4d56d ada.text_io%s
+D a-tiflau.ads		20210728065506 4e6348d7 ada.text_io.float_aux%s
+D a-tiflau.adb		20210728065506 73a27596 ada.text_io.float_aux%b
+D a-tiflio.ads		20210728065506 fcca4daa ada.text_io.float_io%s
+D a-tiflio.adb		20210728065506 99c5ae74 ada.text_io.float_io%b
+D a-tigeau.ads		20210728065506 e643cdf3 ada.text_io.generic_aux%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-cstrea.ads		20210728065506 e53d8b8e interfaces.c_streams%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-crtl.ads		20210728065506 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-fatgen.ads		20210728065506 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20210728065506 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210728065506 078245e4 system.file_control_block%s
+D s-imgrea.ads		20210728065506 9f9b9792 system.img_real%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-powflt.ads		20210728065506 f3dcde99 system.powten_flt%s
+D s-powlfl.ads		20210728065506 36a8a875 system.powten_lflt%s
+D s-powllf.ads		20210728065506 ec06c727 system.powten_llf%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-valflt.ads		20210728065506 46afdd15 system.val_flt%s
+D s-vallfl.ads		20210728065506 b34fc689 system.val_lflt%s
+D s-valllf.ads		20210728065506 72c97659 system.val_llf%s
+D s-valrea.ads		20210728065506 e455edfc system.val_real%s
+D s-wchcon.ads		20210728065506 1b7d22d2 system.wch_con%s
+G a e
+G c Z s s [get ada__long_float_text_io 52 14 18_1]
+G c Z s s [get ada__long_float_text_io 60 14 18_1]
+G c Z s s [put ada__long_float_text_io 69 14 18_1]
+G c Z s s [put ada__long_float_text_io 82 14 18_1]
+G c Z s s [get ada__long_float_text_io 93 14 18_1]
+G c Z s s [put ada__long_float_text_io 100 14 18_1]
+G c Z s s [get ada__long_float_text_io__aux_float 50 14 39_4_18_1]
+G c Z s s [put ada__long_float_text_io__aux_float 55 14 39_4_18_1]
+G c Z s s [gets ada__long_float_text_io__aux_float 62 14 39_4_18_1]
+G c Z s s [puts ada__long_float_text_io__aux_float 67 14 39_4_18_1]
+G c Z s s [get ada__long_float_text_io__aux_long_float 50 14 42_4_18_1]
+G c Z s s [put ada__long_float_text_io__aux_long_float 55 14 42_4_18_1]
+G c Z s s [gets ada__long_float_text_io__aux_long_float 62 14 42_4_18_1]
+G c Z s s [puts ada__long_float_text_io__aux_long_float 67 14 42_4_18_1]
+G c Z s s [get ada__long_float_text_io__aux_long_long_float 50 14 45_4_18_1]
+G c Z s s [put ada__long_float_text_io__aux_long_long_float 55 14 45_4_18_1]
+G c Z s s [gets ada__long_float_text_io__aux_long_long_float 62 14 45_4_18_1]
+G c Z s s [puts ada__long_float_text_io__aux_long_long_float 67 14 45_4_18_1]
+X 1 ada.ads
+16K9*Ada 20e8 5|16r6 18r9 19r7
+X 5 a-lfteio.ads
+18K13*Long_Float_Text_IO[11|46] 1|16k9
+X 8 a-textio.ads
+58K13*Text_IO 5|16w10 19r11 8|728e16
+X 11 a-tiflio.ads
+46k21*Float_IO 5|19r19 11|112e25
+

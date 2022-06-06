@@ -1,0 +1,90 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.val_llf%s	s-valllf.ads		b88c25c9 NE OL PR PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+Z system.fat_llf%s	s-fatllf.ads		s-fatllf.ali
+Z system.float_control%s  s-flocon.adb		s-flocon.ali
+W system.powten_llf%s	s-powllf.ads		s-powllf.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_real%s
+Z system.val_util%s	s-valuti.adb		s-valuti.ali
+Z system.value_r%s
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exnllf.ads		20210728065506 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20210728065506 d28c6cfe system.fat_gen%s
+D s-fatllf.ads		20210728065506 4d5c1475 system.fat_llf%s
+D s-flocon.ads		20210728065506 e0fc433c system.float_control%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-powllf.ads		20210728065506 ec06c727 system.powten_llf%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+D s-valllf.ads		20210728065506 72c97659 system.val_llf%s
+D s-valrea.ads		20210728065506 e455edfc system.val_real%s
+D s-valrea.adb		20210728065506 177fba04 system.val_real%b
+D s-valuti.ads		20210728065506 aca0b6fe system.val_util%s
+D s-valuer.ads		20210728065506 2aeea103 system.value_r%s
+D s-valuer.adb		20210728065506 90edc922 system.value_r%b
+G a e
+G c Z s s [scan_real system__val_llf__impl 48 13 42_4]
+G c Z s s [value_real system__val_llf__impl 81 13 42_4]
+G c Z s s [scan_raw_real system__val_llf__impl__impl 48 13 56_4_42_4]
+G c Z s s [value_raw_real system__val_llf__impl__impl 91 13 56_4_42_4]
+G c Z s s [as_digit system__val_llf__impl__impl 42 13 56_4_42_4]
+G c Z s s [round_extra system__val_llf__impl__impl 45 14 56_4_42_4]
+G c Z s s [scan_decimal_digits system__val_llf__impl__impl 53 14 56_4_42_4]
+G c Z s s [scan_integral_digits system__val_llf__impl__impl 76 14 56_4_42_4]
+G c Z s s [integer_to_real system__val_llf__impl 79 13 42_4]
+X 4 interfac.ads
+38K9*Interfaces 231e15 15|35w6 44r7
+82M9*Unsigned_64 15|44r18
+X 5 system.ads
+37K9*System 193e11 15|36r6 37r6 39r9 45r7 46r7 57r5
+X 11 s-powllf.ads
+34K16*Powten_LLF 70e22 15|36w13 45r14 46r14
+37N4*Maxpow 15|45r25
+45a4*Powten(long_long_float) 15|46r25
+X 15 s-valllf.ads
+39K16*Val_LLF 5|37k9 15|57l12 57e19
+42K12*Impl[16|45] 52r14 55r14
+48V13*Scan_Long_Long_Float=52:19{long_long_float}
+49a7 Str{string}
+50p7 Ptr(integer)
+51i7 Max{integer}
+54V13*Value_Long_Long_Float=55:19{long_long_float}
+54a36 Str{string}
+X 16 s-valrea.ads
+45k16*Val_Real 15|37w13 42r24 16|87e20
+48V13*Scan_Real{long_long_float} 15|52r19[42]
+81V13*Value_Real{long_long_float} 15|55r19[42]
+

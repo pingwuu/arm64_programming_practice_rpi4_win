@@ -1,0 +1,131 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ada.long_integer_wide_text_io%b  a-liwtio.ads	70e9ac48 NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+Z ada.wide_text_io.generic_aux%s  a-wtgeau.adb	a-wtgeau.ali
+Z ada.wide_text_io.integer_aux%s
+Z ada.wide_text_io.integer_io%s
+W system%s		system.ads		system.ali
+Z system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+Z system.img_lli%s	s-imglli.ads		s-imglli.ali
+Z system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+Z system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+Z system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+Z system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+Z system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+Z system.val_lli%s	s-vallli.ads		s-vallli.ali
+Z system.val_llli%s	s-valllli.ads		s-valllli.ali
+Z system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+Z system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.long_integer_wide_text_io%s  a-liwtio.ads	090dcefe EB NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+Z ada.wide_text_io.integer_io%s
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210728065506 e4a01f64 ada.io_exceptions%s
+D a-liwtio.ads		20210728065506 70e9ac48 ada.long_integer_wide_text_io%s
+D a-liwtio.ads		20210728065506 70e9ac48 ada.long_integer_wide_text_io%b
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D a-witeio.ads		20210728065506 0f9cff17 ada.wide_text_io%s
+D a-wtgeau.ads		20210728065506 009ba30c ada.wide_text_io.generic_aux%s
+D a-wtinau.ads		20210728065506 bfebe008 ada.wide_text_io.integer_aux%s
+D a-wtinau.adb		20210728065506 afe67c42 ada.wide_text_io.integer_aux%b
+D a-wtinio.ads		20210728065506 d056ca02 ada.wide_text_io.integer_io%s
+D a-wtinio.adb		20210728065506 dc322315 ada.wide_text_io.integer_io%b
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-cstrea.ads		20210728065506 e53d8b8e interfaces.c_streams%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-crtl.ads		20210728065506 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-ficobl.ads		20210728065506 078245e4 system.file_control_block%s
+D s-imageb.ads		20210728065506 3953e0e6 system.image_b%s
+D s-imagei.ads		20210728065506 0d3f86a7 system.image_i%s
+D s-imagew.ads		20210728065506 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20210728065506 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20210728065506 bdb6f5ec system.img_int%s
+D s-imgllb.ads		20210728065506 47d0db9f system.img_llb%s
+D s-imglli.ads		20210728065506 3723d9ff system.img_lli%s
+D s-imglllb.ads		20210728065506 30212eed system.img_lllb%s
+D s-imgllli.ads		20210728065506 5cf3dc07 system.img_llli%s
+D s-imglllw.ads		20210728065506 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20210728065506 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20210728065506 912a95f2 system.img_wiu%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+D s-valint.ads		20210728065506 e7fcadb7 system.val_int%s
+D s-vallli.ads		20210728065506 0767e6f3 system.val_lli%s
+D s-valllli.ads		20210728065506 f758e795 system.val_llli%s
+D s-vallllu.ads		20210728065506 87566fa4 system.val_lllu%s
+D s-valllu.ads		20210728065506 660d930f system.val_llu%s
+D s-valuns.ads		20210728065506 dac7b45d system.val_uns%s
+D s-valuei.ads		20210728065506 978dd0a6 system.value_i%s
+D s-valueu.ads		20210728065506 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210728065506 1b7d22d2 system.wch_con%s
+D s-wchwts.ads		20210728065506 b3692fb2 system.wch_wts%s
+G a e
+G c Z s s [get ada__long_integer_wide_text_io 30 14 18_1]
+G c Z s s [get ada__long_integer_wide_text_io 35 14 18_1]
+G c Z s s [put ada__long_integer_wide_text_io 39 14 18_1]
+G c Z s s [put ada__long_integer_wide_text_io 45 14 18_1]
+G c Z s s [get ada__long_integer_wide_text_io 50 14 18_1]
+G c Z s s [put ada__long_integer_wide_text_io 55 14 18_1]
+G c Z s s [get ada__long_integer_wide_text_io__aux_int 52 14 50_4_18_1]
+G c Z s s [gets ada__long_integer_wide_text_io__aux_int 57 14 50_4_18_1]
+G c Z s s [put ada__long_integer_wide_text_io__aux_int 62 14 50_4_18_1]
+G c Z s s [puts ada__long_integer_wide_text_io__aux_int 68 14 50_4_18_1]
+G c Z s s [get ada__long_integer_wide_text_io__aux_lli 52 14 58_4_18_1]
+G c Z s s [gets ada__long_integer_wide_text_io__aux_lli 57 14 58_4_18_1]
+G c Z s s [put ada__long_integer_wide_text_io__aux_lli 62 14 58_4_18_1]
+G c Z s s [puts ada__long_integer_wide_text_io__aux_lli 68 14 58_4_18_1]
+G c Z s s [get ada__long_integer_wide_text_io__aux_llli 52 14 66_4_18_1]
+G c Z s s [gets ada__long_integer_wide_text_io__aux_llli 57 14 66_4_18_1]
+G c Z s s [put ada__long_integer_wide_text_io__aux_llli 62 14 66_4_18_1]
+G c Z s s [puts ada__long_integer_wide_text_io__aux_llli 68 14 66_4_18_1]
+X 1 ada.ads
+16K9*Ada 20e8 5|16r6 18r9 19r7
+X 5 a-liwtio.ads
+18K13*Long_Integer_Wide_Text_IO[13|25] 1|16k9
+X 9 a-witeio.ads
+52K13*Wide_Text_IO 5|16w10 19r11 9|495e21
+X 13 a-wtinio.ads
+25k26*Integer_IO 5|19r24 13|60e32
+

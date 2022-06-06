@@ -1,0 +1,133 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.atomic_operations.modular_arithmetic%b  s-aomoar.adb  857eb9c2 NE OL PK GE
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.atomic_operations%s  s-atoope.ads	s-atoope.ali
+W system.atomic_operations.exchange%s
+W system.atomic_primitives%s  s-atopri.adb	s-atopri.ali
+
+U system.atomic_operations.modular_arithmetic%s  s-aomoar.ads  20d54f9f BN NE OL PU PK GE
+W system.atomic_operations%s  s-atoope.ads	s-atoope.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-c.ads		20210728065506 c624fa43 interfaces.c%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-atoope.ads		20210728065506 c7637a25 system.atomic_operations%s
+D s-atopex.ads		20210728065506 997451f6 system.atomic_operations.exchange%s
+D s-atopex.adb		20210728065506 d4d0c997 system.atomic_operations.exchange%b
+D s-aomoar.ads		20210728065506 e7b635ba system.atomic_operations.modular_arithmetic%s
+D s-aomoar.adb		20210728065506 2ea46eff system.atomic_operations.modular_arithmetic%b
+D s-atopri.ads		20210728065506 133c4932 system.atomic_primitives%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+G a e
+G c Z s b [modular_arithmetic system__atomic_operations 38 34 none]
+X 3 interfac.ads
+38K9*Interfaces 231e15 10|34r6 34r24 210r16
+82M9*Unsigned_64 10|105r15 174r15
+X 4 i-c.ads
+18K20*C 232e17 10|34w17 210r27
+62M9*size_t 10|210r29
+X 5 system.ads
+37K9*System 193e11 9|38r9 66r5 10|32r6 32r36 33r6 36r14 38r28 76r16 80r16
+. 84r16 88r16 145r16 149r16 153r16 157r16 215r5
+67M9*Address 10|76r23 80r23 84r23 88r23 145r23 149r23 153r23 157r23
+X 6 s-atoope.ads
+36K16*Atomic_Operations 5|37k9 6|39e29 9|38r16 66r12 10|33r13 36r21 38r35
+. 215r12
+X 7 s-atopex.ads
+38k34*Exchange 57e38 10|33w31 38r53
+45V13 Atomic_Compare_And_Exchange{boolean} 10|124s32[38] 193s32[38]
+X 9 s-aomoar.ads
+37M9 Atomic_Type 42r30 43r15 46r30 47r15 50r30 51r15 51r35 54r30 55r15 55r35
+. 58r22 10|38r63 45r30 46r15 48r25 58r30 59r15 61r25 71r30 72r15 72r35 76r38
+. 77r16 80r38 81r16 84r38 85r16 88r38 89r16 99r10 99r34 100r18 101r18 105r28
+. 119r33 120r25 140r30 141r15 141r35 145r38 146r16 149r38 150r16 153r38 154r16
+. 157r38 158r16 168r10 168r34 169r18 170r18 174r28 188r33 189r25 208r42 212r48
+38k34*Modular_Arithmetic 6|36k16 9|37z9 66l30 66e48 10|36b39 215l30 215t48
+41U14*Atomic_Add 42=7 43>7 61r26 10|44b14 51l8 51t18
+42*7 Item{37M9} 10|45b7 48m62 48r62
+43*7 Value{37M9} 10|46b7 48r68
+45U14*Atomic_Subtract 46=7 47>7 62r26 10|57b14 64l8 64t23
+46*7 Item{37M9} 10|58b7 61m67 61r67
+47*7 Value{37M9} 10|59b7 61r73
+49V13*Atomic_Fetch_And_Add{37M9} 50=7 51>7 63r26 10|48s40 70b13 133l8 133t28
+50*7 Item{37M9} 10|71b7 107m43 107r43 109m43 109r43 111m43 111r43 113m43
+. 113r43 119r48 125m26 125r26
+51*7 Value{37M9} 10|72b7 107r57 109r57 111r57 113r57 120r52 127r41
+53V13*Atomic_Fetch_And_Subtract{37M9} 54=7 55>7 64r26 10|61s40 139b13 202l8
+. 202t33
+54*7 Item{37M9} 10|140b7 176m43 176r43 178m43 178r43 180m43 180r43 182m43
+. 182r43 188r48 194m26 194r26
+55*7 Value{37M9} 10|141b7 176r57 178r57 180r57 182r57 189r52 196r41
+57V13*Is_Lock_Free{boolean} 58>7 65r26 10|208b13 213l8 213t20
+58*7 Item{37M9} 10|208b27 209r28
+X 10 s-aomoar.adb
+38K12 Exchange[7|38] 124r23 193r23
+48*7 Ignore{9|37M9}
+61*7 Ignore{9|37M9}
+75V16*Atomic_Fetch_Add_1{9|37M9} 76>10 76>32 76>51 78b33 107s23
+76m10 Ptr{5|67M9}
+76*32 Val{9|37M9}
+76i51 Model{11|63I12}
+79V16*Atomic_Fetch_Add_2{9|37M9} 80>10 80>32 80>51 82b33 109s23
+80m10 Ptr{5|67M9}
+80*32 Val{9|37M9}
+80i51 Model{11|63I12}
+83V16*Atomic_Fetch_Add_4{9|37M9} 84>10 84>32 84>51 86b33 111s23
+84m10 Ptr{5|67M9}
+84*32 Val{9|37M9}
+84i51 Model{11|63I12}
+87V16*Atomic_Fetch_Add_8{9|37M9} 88>10 88>32 88>51 90b33 113s23
+88m10 Ptr{5|67M9}
+88*32 Val{9|37M9}
+88i51 Model{11|63I12}
+119*13 Old_Value{9|37M9} 120r40 125m32 125r32 127r29 130r20
+120*13 New_Value{9|37M9} 125r43 127m16
+144V16*Atomic_Fetch_Sub_1{9|37M9} 145>10 145>32 145>51 147b33 176s23
+145m10 Ptr{5|67M9}
+145*32 Val{9|37M9}
+145i51 Model{11|63I12}
+148V16*Atomic_Fetch_Sub_2{9|37M9} 149>10 149>32 149>51 151b33 178s23
+149m10 Ptr{5|67M9}
+149*32 Val{9|37M9}
+149i51 Model{11|63I12}
+152V16*Atomic_Fetch_Sub_4{9|37M9} 153>10 153>32 153>51 155b33 180s23
+153m10 Ptr{5|67M9}
+153*32 Val{9|37M9}
+153i51 Model{11|63I12}
+156V16*Atomic_Fetch_Sub_8{9|37M9} 157>10 157>32 157>51 159b33 182s23
+157m10 Ptr{5|67M9}
+157*32 Val{9|37M9}
+157i51 Model{11|63I12}
+188*13 Old_Value{9|37M9} 189r40 194m32 194r32 196r29 199r20
+189*13 New_Value{9|37M9} 194r43 196m16
+X 11 s-atopri.ads
+38K16*Atomic_Primitives 10|32w13 32r43 11|203e29
+60N4*Seq_Cst 10|76r72 80r72 84r72 88r72 145r72 149r72 153r72 157r72
+63I12*Mem_Model{integer} 10|76r59 80r59 84r59 88r59 145r59 149r59 153r59
+. 157r59
+65B9*bool<boolean>
+148V13*Atomic_Always_Lock_Free{65E9} 10|212s23
+

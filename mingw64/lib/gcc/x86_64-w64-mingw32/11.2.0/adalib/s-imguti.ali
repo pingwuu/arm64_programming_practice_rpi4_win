@@ -1,0 +1,95 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U system.img_util%b	s-imguti.adb		ca613093 NE OL PK
+W system%s		system.ads		system.ali
+W system.img_uns%s	s-imguns.ads		s-imguns.ali
+
+U system.img_util%s	s-imguti.ads		19e82a2e NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20210728065506 2ffa5114 system%s
+D s-imageu.ads		20210728065506 525c30c6 system.image_u%s
+D s-imguns.ads		20210728065506 0e4da2ac system.img_uns%s
+D s-imguti.ads		20210728065506 36127b3a system.img_util%s
+D s-imguti.adb		20210728065506 f23ee905 system.img_util%b
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+G a e
+G c Z s b [set_decimal_digits system__img_util 37 14 none]
+X 1 system.ads
+37K9*System 193e11 4|34r9 61r5 5|32r6 32r26 34r14 403r5
+X 3 s-imguns.ads
+39K16*Img_Uns 58e19 5|32w13 32r33
+42M12*Unsigned{6|46M9} 5|282r33 285r33
+52U14*Set_Image_Unsigned=56:19 5|282s13 285s13
+X 4 s-imguti.ads
+34K16*Img_Util 1|37k9 4|61l12 61e20 5|34b21 403l12 403t20
+37U14*Set_Decimal_Digits 38=7 39>7 40<7 41=7 42>7 43>7 44>7 45>7 5|40b14
+. 401l8 401t26
+38a7 Digs{string} 5|41b7 51r22 52r22 52r35 54r36 54r42 57r26 57r32 118r25
+. 119r25 119r38 134r31 134r37 135m16 135r22 137m16 137r22 154r37 156r16 157r33
+. 157r51 158r34 161r40 164m22 167m22 175m16 175r22 227r30 227r50 231r18 255r15
+. 282m51 285m52 370r35
+39i7 NDigs{natural} 5|42b7 50r22 65r23 68r23 117r25
+40a7 S{string} 5|43b7 189r31 189r52 198m10
+41i7 P{natural} 5|44b7 189r25 189r48 190r25 197m10 197r15 198r13
+42i7 Scale{integer} 5|45b7 71r45 307r23
+43i7 Fore{natural} 5|46b7 252r31 314r34 371r40 377r40 390r37
+44i7 Aft{natural} 5|47b7 77r64
+45i7 Exp{natural} 5|48b7 251r10 288r22
+X 5 s-imguti.adb
+54b7 Minus{boolean} 207r13
+57b7 Zero{boolean} 138m16 275r23
+62i7 FD{natural} 129r20 142m13 176m16 255r21 256m10 256r16 262r25 262r29
+. 264r25 351r31 351r35 354r31 370r41 378r31 391r31 394r28 394r32 396r28
+65i7 LD{natural} 124r18 143m13 149m13 150r28 153r19 264r29 307r17 354r35
+. 378r35 396r54
+68i7 ND{natural} 71r40 144m13 153m13 177m16 177r22 257r25 258m10 258r16 261r13
+. 265r46 278m10 282m57 282r57 285m58 285r58 288r28 289r25 332r24 355r36 365r16
+. 370r19 379r53 397r50
+71i7 Digits_Before_Point{integer} 141m13 141r36 178m16 178r39 275r40 313r13
+. 322r59 365r21 377r47 379r31 390r44 391r36 394r37 396r33 397r55
+77i7 Digits_After_Point{natural} 253r17 261r19 262r34 265r25 307r31 319r32
+. 385r28 397r28
+80i7 Expon{integer} 275m10 280r13 282r43 285r44
+83U17 Round 83>24 114b17 181l11 181t16 253s10 307s10
+83i24 N{integer} 114b24 124r13 129r16 134r16 149r19 154r28 156r22 157r64
+92U17 Set 92>22 93r22 187b17 199l11 199t14 209s16 212s13 216s16 231s13 242s13
+. 255s10 259s10 277s10 281s13 284s13 315s13 316s13 372s19 384s16 395s16
+92e22 C{character} 187b22 198r19
+96U17 Set_Blanks_And_Sign 96>38 205b17 219l11 219t30 252s10 314s13 371s19
+. 377s19 390s16
+96i38 N{integer} 205b38 208r27 215r27
+102U17 Set_Digits 102>29 102>32 103r22 225b17 233l11 233t21 262s13 264s13
+. 289s10 351s19 354s19 378s19 394s16 396s16
+102i29 S{natural} 225b29 227r25 230r19
+102i32 E{natural} 225b32 227r45 230r24
+106U17 Set_Zeroes 106>29 107r22 239b17 244l11 244t21 265s13 288s10 329s16
+. 355s19 379s19 385s16 397s16
+106i29 N{integer} 239b29 241r24
+115e10 D{character} 161m19 163r22 164r34
+157i20 J{integer} 158r40 161r46 164r28 167r28
+208i17 J{integer}
+215i17 J{integer}
+230i14 J{integer} 231r24
+241i14 J{integer}
+319i16 DA{natural} 322r54 330m16 330r22 332r19 351r40 355r31
+322i16 LZ{integer} 329r28 330r27
+X 6 s-unstyp.ads
+46M9*Unsigned
+

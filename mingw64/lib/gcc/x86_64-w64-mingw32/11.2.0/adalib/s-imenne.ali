@@ -1,0 +1,93 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.img_enum_new%b	s-imenne.adb		25460443 NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+
+U system.img_enum_new%s	s-imenne.ads		4eb657d4 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-imenne.ads		20210728065506 614c06c0 system.img_enum_new%s
+D s-imenne.adb		20210728065506 4a9125ec system.img_enum_new%b
+G a e
+G c Z s b [image_enumeration_8 system__img_enum_new 48 14 none]
+G c Z s b [image_enumeration_16 system__img_enum_new 67 14 none]
+G c Z s b [image_enumeration_32 system__img_enum_new 76 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|34r6 60r13 104r13 148r13
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 5|34w10 60r17 104r17 148r17
+X 3 system.ads
+37K9*System 193e11 4|45r9 53r17 72r17 81r17 85r5 5|36r14 47r17 60r39 91r17
+. 104r39 135r17 148r39 170r5
+67M9*Address 4|53r24 72r24 81r24 5|47r24 60r46 91r24 104r46 135r24 148r46
+X 4 s-imenne.ads
+45K16*Img_Enum_New 3|37k9 4|85l12 85e24 5|36b21 170l12 170t24
+48U14*Image_Enumeration_8 49>7 50=7 51<7 52>7 53>7 5|42b14 80l8 80t27
+49i7 Pos{natural} 5|43b7 64r22 65r22 67r54 68r54
+50a7 S{string} 5|44b7 49r22 74r38 78m7
+51i7 P{natural} 5|45b7 79m7
+52a7 Names{string} 5|46b7 53r36 54r41 55r55 71r31 72r34 78r32
+53m7 Indexes{3|67M9} 5|47b7 62r66
+67U14*Image_Enumeration_16 68>7 69=7 70<7 71>7 72>7 5|86b14 124l8 124t28
+68i7 Pos{natural} 5|87b7 108r22 109r22 111r54 112r54
+69a7 S{string} 5|88b7 93r22 118r38 122m7
+70i7 P{natural} 5|89b7 123m7
+71a7 Names{string} 5|90b7 97r38 98r43 99r55 115r31 116r34 122r32
+72m7 Indexes{3|67M9} 5|91b7 106r66
+76U14*Image_Enumeration_32 77>7 78=7 79<7 80>7 81>7 5|130b14 168l8 168t28
+77i7 Pos{natural} 5|131b7 152r22 153r22 155r54 156r54
+78a7 S{string} 5|132b7 137r22 162r38 166m7
+79i7 P{natural} 5|133b7 167m7
+80a7 Names{string} 5|134b7 141r38 142r43 143r55 159r31 160r34 166r32
+81m7 Indexes{3|67M9} 5|135b7 150r66
+X 5 s-imenne.adb
+51I12 Natural_8<short_short_integer> 53r9 53r25 54r30
+52I15 Names_Index{51I12} 56r44
+55I15 Index{natural} 56r34
+56A12 Index_Table(52I15)<integer> 57r38
+57P12 Index_Table_Ptr(56A12) 60r55 62r27
+59V16 To_Index_Table_Ptr[2|20]{57P12} 62s46
+62p7 IndexesT{57P12} 64r29 65r33 67r44 68r44
+67i7 Start{natural} 70r34 71r22 74r29 78r22 78r39 79r19
+68i7 Next{natural} 70r22 72r22 74r22 78r15 78r48 79r12
+95I12 Natural_16<short_integer> 97r9 97r26 98r31
+96I15 Names_Index{95I12} 100r44
+99I15 Index{natural} 100r34
+100A12 Index_Table(96I15)<integer> 101r38
+101P12 Index_Table_Ptr(100A12) 104r55 106r27
+103V16 To_Index_Table_Ptr[2|20]{101P12} 106s46
+106p7 IndexesT{101P12} 108r29 109r33 111r44 112r44
+111i7 Start{natural} 114r34 115r22 118r29 122r22 122r39 123r19
+112i7 Next{natural} 114r22 116r22 118r22 122r15 122r48 123r12
+139I12 Natural_32<integer> 141r9 141r26 142r31
+140I15 Names_Index{139I12} 144r44
+143I15 Index{natural} 144r34
+144A12 Index_Table(140I15)<integer> 145r38
+145P12 Index_Table_Ptr(144A12) 148r55 150r27
+147V16 To_Index_Table_Ptr[2|20]{145P12} 150s46
+150p7 IndexesT{145P12} 152r29 153r33 155r44 156r44
+155i7 Start{natural} 158r34 159r22 162r29 166r22 166r39 167r19
+156i7 Next{natural} 158r22 160r22 162r22 166r15 166r48 167r12
+

@@ -1,0 +1,83 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+
+U ada.strings.text_output.bit_buckets%b  a-stobbu.adb  c820b0a9 OL PF PK
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U ada.strings.text_output.bit_buckets%s  a-stobbu.ads  a27b8ea1 EE NE OL PK
+W ada.strings.text_output%s  a-stteou.ads	a-stteou.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-stteou.ads		20210728065506 e7ab1e2a ada.strings.text_output%s
+D a-stobbu.ads		20210728065506 45d0908b ada.strings.text_output.bit_buckets%s
+D a-stobbu.adb		20210728065506 8df02022 ada.strings.text_output.bit_buckets%b
+D a-stuten.ads		20210728065506 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210728065506 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D unchconv.ads		20210728065506 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [bit_bucket ada__strings__text_output__bit_buckets 33 13 none]
+G c Z b b [full_method ada__strings__text_output__bit_buckets 35 25 none]
+G c Z b b [flush_method ada__strings__text_output__bit_buckets 36 25 none]
+G c Z b b [bit_bucket_typeDF ada__strings__text_output__bit_buckets 34 9 none]
+G c Z b b [bit_bucket_typeIP ada__strings__text_output__bit_buckets 34 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|32r9 34r5 6|32r14 53r5
+X 3 a-string.ads
+16K13*Strings 1|16k9 3|35e16 5|32r13 34r9 6|32r18 53r9
+X 4 a-stteou.ads
+35K21*Text_Output 3|16k13 4|193e28 5|32r21 34r17 6|32r26 53r17
+78H9*Sink 191e14 6|34r32
+79P9*Sink_Access(78R9) 5|33r31 6|40r31
+143i4*Default_Chunk_Length{positive} 6|39r23
+154P9 Chunk_Access(153R9)
+155R9 Chunk
+161i7*Indent_Amount{natural} 6|51m19
+178p7*Cur_Chunk{154P9} 6|52m19
+184i7*Last{natural} 6|47m9
+187r7*Initial_Chunk{155R9} 6|52m47
+X 5 a-stobbu.ads
+32K33*Bit_Buckets 4|35k21 5|34l29 34e40 6|32b38 53l29 53t40
+33V13*Bit_Bucket{4|79P9} 6|40b13
+X 6 a-stobbu.adb
+34R9 Bit_Bucket_Type<4|78R9> 34e53 35P25 35r49 36P25 36r50 38r29 42r49 45r50
+35U25 Full_Method<4|83p14> 35=38 42b25
+35r38 S{34R9} 42b38
+36U25 Flush_Method<4|84p14> 36=39 43r25 45b25 48l8 48t20
+36r39 S{34R9} 45b39 47m7
+38r4 The_Bit_Bucket{34R9} 40m47 40r47 51m4 52m4 52m32 52r32
+

@@ -1,0 +1,57 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+
+U system.fore_fixed_128%s  s-fofi128.ads	e7603f7f NE OL PU PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_128%s	s-arit128.adb		s-arit128.ali
+Z system.exn_llli%s	s-exnllli.ads		s-exnllli.ali
+W system.fore_f%s
+
+D interfac.ads		20210728065506 edec285f interfaces%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-arit128.ads		20210728065506 4add960c system.arith_128%s
+D s-exnllli.ads		20210728065506 3c39451c system.exn_llli%s
+D s-exponn.ads		20210728065506 d643ee1e system.exponn%s
+D s-fore_f.ads		20210728065506 5b88f089 system.fore_f%s
+D s-fore_f.adb		20210728065506 1df060cf system.fore_f%b
+D s-fofi128.ads		20210728065506 342320b1 system.fore_fixed_128%s
+G a e
+G c Z s s [fore_fixed system__fore_fixed_128__impl 47 13 44_4]
+X 1 interfac.ads
+38K9*Interfaces 231e15 8|35w6 42r22
+63I9*Integer_128<long_long_long_integer> 8|42r33
+X 2 system.ads
+37K9*System 193e11 8|36r6 37r6 39r9 50r5
+X 3 s-arit128.ads
+41K16*Arith_128 84e21 8|36w13 44r40
+44I12*Int128{1|63I9}
+54V13*Multiply_With_Ovflo_Check128{44I12} 55i<c,__gnat_mulv128>22
+60U14*Scaled_Divide128 8|44r50
+X 6 s-fore_f.ads
+44k16*Fore_F 54e18 8|37w13 44r24
+47V13*Fore_Fixed{natural} 8|48r19[44]
+X 8 s-fofi128.ads
+39K16*Fore_Fixed_128 2|37k9 8|50l12 50e26
+42I12*Int128{1|63I9} 44r32 47r26
+44K12*Impl[6|44] 48r14
+46V13*Fore_Fixed128=48:19{natural}
+47i7 Lo{1|63I9}
+47i11 Hi{1|63I9}
+47i15 Num{1|63I9}
+47i20 Den{1|63I9}
+47i34 Scale{integer}
+

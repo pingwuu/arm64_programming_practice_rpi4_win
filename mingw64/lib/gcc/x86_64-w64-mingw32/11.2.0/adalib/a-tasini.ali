@@ -1,0 +1,78 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.task_initialization%b  a-tasini.adb	a7b83c0b NE OL PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U ada.task_initialization%s  a-tasini.ads	18fb485d NE OL PR PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-tasini.ads		20210728065506 6e83d5fc ada.task_initialization%s
+D a-tasini.adb		20210728065506 4f5b6735 ada.task_initialization%b
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-c.ads		20210728065506 c624fa43 interfaces.c%s
+D i-cstrin.ads		20210728065506 341d0ddf interfaces.c.strings%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-atacco.ads		20210728065506 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-multip.ads		20210728065506 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210728065506 97504df8 system.os_interface%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210728065506 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210728065506 601f6b72 system.task_info%s
+D s-taspri.ads		20210728065506 a1350802 system.task_primitives%s
+D s-taskin.ads		20210728065506 88fba9ad system.tasking%s
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210728065506 eea7525d system.unsigned_types%s
+D s-win32.ads		20210728065506 15ac53fb system.win32%s
+G a e
+G c Z s b [set_initialization_handler ada__task_initialization 37 14 none]
+G c Z b b [to_stih ada__task_initialization 34 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|32r9 42r5 4|29r6 32r14 34r28 46r5
+X 3 a-tasini.ads
+32K13*Task_Initialization 1|16k9 3|33r25 42l9 42e28 4|32b18 46l9 46t28
+35P9*Initialization_Handler 37r52 41r28 4|35r7 41r52
+37U14*Set_Initialization_Handler 37>42 4|41b14 44l8 44t34
+37p42 Handler{35P9} 4|41b42 43r64
+X 4 a-tasini.adb
+34V13 To_STIH[5|20]{23|371P9} 43s55
+X 5 a-unccon.ads
+20v14*Unchecked_Conversion 4|29w10 34r32
+X 9 system.ads
+37K9*System 4|30r6 35r31 43r7 9|193e11
+X 18 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 23 s-taskin.ads
+47K16*Tasking 4|30w13 35r38 43m14 23|1223e19
+371P9*Initialization_Handler 4|35r46
+375p4*Global_Initialization_Handler{371P9} 4|43m22
+

@@ -1,0 +1,122 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U ada.strings.text_output%s  a-stteou.ads	e6eadae6 EE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.utf_encoding%s  a-stuten.adb	a-stuten.ali
+W ada.strings.utf_encoding.wide_wide_strings%s  a-suezst.adb  a-suezst.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-string.ads		20210728065506 90ac6797 ada.strings%s
+D a-stteou.ads		20210728065506 e7ab1e2a ada.strings.text_output%s
+D a-stuten.ads		20210728065506 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210728065506 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D unchconv.ads		20210728065506 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s s [to_wide ada__strings__text_output 101 13 none]
+G c Z s s [to_wide_wide ada__strings__text_output 103 13 none]
+G c Z s s [to_wide_wide ada__strings__text_output 105 13 none]
+G c Z s s [from_wide ada__strings__text_output 110 13 none]
+G c Z s s [from_wide_wide ada__strings__text_output 112 13 none]
+G c Z s s [from_wide_wide ada__strings__text_output 114 13 none]
+G c Z s s [nl ada__strings__text_output 119 13 none]
+G c Z s s [wide_nl ada__strings__text_output 120 13 none]
+G c Z s s [wide_wide_nl ada__strings__text_output 122 13 none]
+G c Z s s [chunkIP ada__strings__text_output 155 9 none]
+G c Z s s [sinkDF ada__strings__text_output 160 9 none]
+G c Z s s [sinkIP ada__strings__text_output 160 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|32r6 33r6 35r9 193r5
+X 3 a-string.ads
+16K13*Strings 1|16k9 3|35e16 4|32r10 33r10 35r13 193r9
+X 4 a-stteou.ads
+35K21*Text_Output 3|16k13 4|153E9 193l17 193e28
+78H9*Sink 79r35 83p14 83r38 84p14 84r39 160c9 160d15 191e14
+79P9*Sink_Access(78R9)
+83x14*Full_Method 83=27
+83r27 S{78R9}
+84x14*Flush_Method 84=28
+84r28 S{78R9}
+101V13*To_Wide{wide_character} 101>22 120s47
+101e22 C{character} 102r42
+103V13*To_Wide_Wide{wide_wide_character} 103>27 123s7
+103e27 C{character} 104r47
+105V13*To_Wide_Wide{wide_wide_character} 105>27
+105e27 C{wide_character} 106r52
+110V13*From_Wide{character} 110>24
+110e24 C{wide_character} 111r42
+112V13*From_Wide_Wide{character} 112>29
+112e29 C{wide_wide_character} 113r47
+114V13*From_Wide_Wide{wide_character} 114>29
+114e29 C{wide_wide_character} 115r52
+119V13*NL{character} 120s67 123s32 139s65
+120V13*Wide_NL{wide_character}
+122V13*Wide_Wide_NL{wide_wide_character}
+133A12*UTF_8_Lines{5|59A12}<integer> 138r21 157r15
+138A12*UTF_8{133A12}<integer>
+139e28 UTF_8_Char=139:42{character} 139r51
+141i4*Default_Indent_Amount{natural}
+143i4*Default_Chunk_Length{positive}
+153R9 Chunk 154r36 155c9 155d16 158e14 187r31
+154P9 Chunk_Access(153R9) 156r14 178r19
+155R9 Chunk
+155i16*Length{positive} 157r33
+156p7*Next{154P9}
+157a7*Chars{string}
+160i15*Chunk_Length{positive} 187r48
+161i7*Indent_Amount{natural}
+162i7*Column{positive}
+163i7*Indentation{natural}
+165b7*All_7_Bits{boolean}
+171b7*All_8_Bits{boolean}
+178p7*Cur_Chunk{154P9}
+184i7*Last{natural}
+187r7*Initial_Chunk{155R9}
+X 5 a-stuten.ads
+42K21*UTF_Encoding 4|32w18 33r18 133r27 135r8 136r11 5|144e29
+59A12*UTF_8_String{string}<integer> 4|133r40
+X 6 a-suezst.ads
+21K34*Wide_Wide_Strings 4|33w31 135r21 136r24 6|64e47
+35V13*Encode{5|59A12} 4|135s39
+56V13*Decode{wide_wide_string} 4|136s42
+

@@ -1,0 +1,228 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U ada.text_io.fixed_io%b  a-tifiio.adb		21d15685 NE OL PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.fixed_aux%s
+W ada.text_io.float_aux%s
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.img_fixed_128%s  s-imfi128.ads		s-imfi128.ali
+W system.img_fixed_32%s	s-imfi32.ads		s-imfi32.ali
+W system.img_fixed_64%s	s-imfi64.ads		s-imfi64.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.val_fixed_128%s  s-vafi128.ads		s-vafi128.ali
+W system.val_fixed_32%s	s-vafi32.ads		s-vafi32.ali
+W system.val_fixed_64%s	s-vafi64.ads		s-vafi64.ali
+W system.val_llf%s	s-valllf.ads		s-valllf.ali
+
+U ada.text_io.fixed_io%s  a-tifiio.ads		014346ef BN NE OL PK GE
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210728065506 76789da1 ada%s
+D a-except.ads		20210728065506 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210728065506 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210728065506 119b8fb3 ada.streams%s
+D a-tags.ads		20210728065506 9eaa38c6 ada.tags%s
+D a-textio.ads		20210728065506 aef4d56d ada.text_io%s
+D a-tifiau.ads		20210728065506 c7e1e581 ada.text_io.fixed_aux%s
+D a-tifiau.adb		20210728065506 7fa0782d ada.text_io.fixed_aux%b
+D a-tifiio.ads		20210728065506 afb79382 ada.text_io.fixed_io%s
+D a-tifiio.adb		20210728065506 68e90f54 ada.text_io.fixed_io%b
+D a-tiflau.ads		20210728065506 4e6348d7 ada.text_io.float_aux%s
+D a-tiflau.adb		20210728065506 73a27596 ada.text_io.float_aux%b
+D a-tigeau.ads		20210728065506 e643cdf3 ada.text_io.generic_aux%s
+D a-unccon.ads		20210728065506 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210728065506 edec285f interfaces%s
+D i-cstrea.ads		20210728065506 e53d8b8e interfaces.c_streams%s
+D system.ads		20210728065506 2ffa5114 system%s
+D s-arit128.ads		20210728065506 4add960c system.arith_128%s
+D s-arit32.ads		20210728065506 6d8c80a6 system.arith_32%s
+D s-arit64.ads		20210728065506 5f88d2b0 system.arith_64%s
+D s-crtl.ads		20210728065506 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210728065506 54135002 system.exception_table%s
+D s-ficobl.ads		20210728065506 078245e4 system.file_control_block%s
+D s-imagef.ads		20210728065506 019cdf69 system.image_f%s
+D s-imfi128.ads		20210728065506 4482fc8f system.img_fixed_128%s
+D s-imfi32.ads		20210728065506 eb29698b system.img_fixed_32%s
+D s-imfi64.ads		20210728065506 dbac59b3 system.img_fixed_64%s
+D s-imgrea.ads		20210728065506 9f9b9792 system.img_real%s
+D s-parame.ads		20210728065506 4752c4cb system.parameters%s
+D s-powllf.ads		20210728065506 ec06c727 system.powten_llf%s
+D s-secsta.ads		20210728065506 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210728065506 a7318a92 system.soft_links%s
+D s-stache.ads		20210728065506 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210728065506 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210728065506 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210728065506 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210728065506 26a8d361 system.traceback_entries%s
+D s-vafi128.ads		20210728065506 41ba1fd5 system.val_fixed_128%s
+D s-vafi32.ads		20210728065506 ea663670 system.val_fixed_32%s
+D s-vafi64.ads		20210728065506 2ff3dc11 system.val_fixed_64%s
+D s-valllf.ads		20210728065506 72c97659 system.val_llf%s
+D s-valrea.ads		20210728065506 e455edfc system.val_real%s
+D s-valuef.ads		20210728065506 44d93748 system.value_f%s
+D s-wchcon.ads		20210728065506 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [fixed_io ada__text_io 26 21 none]
+X 1 ada.ads
+16K9*Ada 20e8 9|26r9 92r5 10|157r6 158r6 167r14 179r6 182r6 185r6 188r6 436r5
+X 6 a-textio.ads
+58K13*Text_IO 1|16k9 6|728e16 9|26r13 92r9 10|157r10 158r10 167r18 179r10
+. 182r10 185r10 188r10 436r9
+59@25*File_System 9|38r27 47r27 60r27 71r27
+65P9*File_Type 9|33r15 50r14 10|303r15 377r14
+67n23*In_File{67E9} 9|37r54 56r55
+78I9*Count<integer>
+87I12*Field{integer} 9|28r19 29r19 30r19 35r15 42r15 52r14 53r14 54r14 64r14
+. 65r14 66r14 83r14 84r14 10|305r15 335r15 379r14 380r14 381r14 404r14 405r14
+. 406r14 415r14 416r14
+157V13*Mode{67E9} 9|37s40 56s40
+167V13*Is_Open{boolean} 9|37s16 56s16
+243V13*Line_Length{78I9} 9|58s8 58s33
+246V13*Line_Length{78I9} 9|45s8 45s26 69s8 69s26
+249V13*Page_Length{78I9} 9|59s12 59s37
+252V13*Page_Length{78I9} 9|46s12 46s30 70s12 70s30
+549X4*Data_Error 10|330r38 369r38
+709p4 Current_In{65P9} 10|338r12
+711p4 Current_Out{65P9} 10|409r12
+X 7 a-tifiau.ads
+62k21*Fixed_Aux 97e26 10|157w18 179r18 182r18 185r18
+64V13 Get{15|52I9} 10|312s27[178] 317s27[181] 322s28[184]
+70U14 Put 10|385s16[178] 389s16[181] 393s17[184]
+81V13 Gets{15|52I9} 10|351s27[178] 356s27[181] 361s28[184]
+87U14 Puts 10|420s16[178] 424s16[181] 428s17[184]
+X 9 a-tifiio.ads
+24O9 Num 28r28 29r28 34r19 41r19 51r14 63r14 75r18 82r14 10|198r6 200r12
+. 200r45 202r12 202r47 204r12 205r22 209r6 211r12 211r45 213r12 213r47 215r12
+. 215r34 216r22 218r12 218r36 219r22 223r6 225r12 225r45 227r12 227r47 229r12
+. 230r22 234r6 236r12 236r45 238r12 238r47 240r12 240r34 241r22 243r12 243r36
+. 244r22 248r6 250r12 250r45 252r12 252r47 254r12 255r22 259r6 261r12 261r45
+. 263r12 263r47 265r12 265r34 266r22 268r12 268r36 269r22 278r43 280r43 282r43
+. 284r43 286r43 288r43 290r43 304r19 311r18 313r33 314r33 316r18 318r33 319r33
+. 321r18 323r34 324r34 334r19 343r18 350r18 352r34 353r34 355r18 357r34 358r34
+. 360r18 362r35 363r35 378r14 386r22 386r44 387r27 390r22 390r44 391r27 394r23
+. 394r45 395r28 403r14 414r14 421r23 421r45 422r28 425r23 425r45 426r28 429r24
+. 429r46 430r29
+26k21*Fixed_IO 6|58k13 9|24z9 92l17 92e25 10|167b26 436l17 436t25
+28i4*Default_Fore{6|87I12} 52r23 64r23 10|379r23 404r23
+29i4*Default_Aft{6|87I12} 53r23 65r23 83r23 10|380r23 405r23 415r23
+30i4*Default_Exp{6|87I12} 54r23 66r23 84r23 10|381r23 406r23 416r23
+32U14*Get 33>7 34<7 35>7 10|302b14 331l8 331t11 338s7
+33p7 File{6|65P9} 37r25 37r46 10|303b7 312r32 317r32 322r33 326r35
+34*7 Item{24O9} 10|304b7 311m10 316m10 321m10 326m58 326r58
+35i7 Width{6|87I12} 10|305b7 312r38 317r38 322r39 326r65
+40U14*Get 41<7 42>7 10|333b14 339l8 339t11
+41*7 Item{24O9} 10|334b7 338m24
+42i7 Width{6|87I12} 10|335b7 338r30
+49U14*Put 50>7 51>7 52>7 53>7 54>7 10|376b14 400l8 400t11 409s7
+50p7 File{6|65P9} 56r25 56r46 58r21 58r46 59r25 59r50 10|377b7 385r21 389r21
+. 393r22 398r13
+51*7 Item{24O9} 10|378b7 385r48 389r48 393r50 398r36
+52i7 Fore{6|87I12} 10|379b7 385r55 389r55 393r57 398r43
+53i7 Aft{6|87I12} 10|380b7 385r61 389r61 393r63 398r49
+54i7 Exp{6|87I12} 10|381b7 385r66 389r66 393r68 398r54
+62U14*Put 63>7 64>7 65>7 66>7 10|402b14 410l8 410t11
+63*7 Item{24O9} 10|403b7 409r25
+64i7 Fore{6|87I12} 10|404b7 409r31
+65i7 Aft{6|87I12} 10|405b7 409r37
+66i7 Exp{6|87I12} 10|406b7 409r42
+73U14*Get 74>7 75<7 76<7 10|341b14 370l8 370t11
+74a7 From{string} 10|342b7 351r33 356r33 361r34 365r36
+75*7 Item{24O9} 10|343b7 350m10 355m10 360m10 365m59 365r59
+76i7 Last{positive} 10|344b7 351m39 351r39 356m39 356r39 361m40 361r40 365m66
+80U14*Put 81<7 82>7 83>7 84>7 10|412b14 434l8 434t11
+81a7 To{string} 10|413b7 420m22 424m22 428m23 432m36
+82*7 Item{24O9} 10|414b7 420r47 424r47 428r49 432r57
+83i7 Aft{6|87I12} 10|415b7 420r54 424r54 428r56 432r64
+84i7 Exp{6|87I12} 10|416b7 420r59 424r59 428r61 432r69
+X 10 a-tifiio.adb
+174I12 Int32{15|52I9} 174r55 179r29 385r27 420r26
+175I12 Int64{15|55I9} 175r55 182r29 389r27 424r26
+176I12 Int128{15|63I9} 176r55 185r29 393r28 428r27
+178K12 Aux32[7|62] 312r21 351r21 385r10 420r10
+181K12 Aux64[7|62] 317r21 356r21 389r10 424r10
+184K12 Aux128[7|62] 322r21 361r21 393r10 428r10
+187K12 Aux_Long_Long_Float[11|48] 326r10 365r10 397r10 432r10
+197b4 OK_Get_32{boolean} 310r10 349r10
+208b4 OK_Put_32{boolean} 273r65 384r10 419r10
+222b4 OK_Get_64{boolean} 315r13 354r13
+233b4 OK_Put_64{boolean} 273r34 388r13 423r13
+247b4 OK_Get_128{boolean} 320r13 359r13
+258b4 OK_Put_128{boolean} 392r13 427r13
+272i4 E{natural} 278r39 280r39 282r39 284r39 286r39 288r39 290r39
+276i4 F0{natural} 278r11 278r63
+277i4 F1{natural} 280r11 280r63
+279i4 F2{natural} 282r11 282r63
+281i4 F3{natural} 284r11 284r63
+283i4 F4{natural} 286r11 286r63
+285i4 F5{natural} 288r11 288r63
+287i4 F6{natural} 290r11 290r63
+289i4 F7{natural} 294r35
+294i4 For0{natural} 387r21 391r21 395r22 422r22 426r22 430r23
+X 11 a-tiflau.ads
+48k21*Float_Aux 10|158w18 188r18 11|73e26
+50U14 Get 10|326s30[187]
+55U14 Put 10|397s30[187]
+62U14 Gets 10|365s30[187]
+67U14 Puts 10|432s30[187]
+X 15 interfac.ads
+38K9*Interfaces 10|156w6 174r22 175r22 176r22 15|231e15
+52I9*Integer_32<integer> 10|174r33
+55I9*Integer_64<long_long_integer> 10|175r33
+63I9*Integer_128<long_long_long_integer> 10|176r33
+X 17 system.ads
+37K9*System 10|159r6 159r32 160r6 160r32 161r6 161r32 162r6 162r32 163r6
+. 163r32 164r6 164r32 165r6 165r32 17|193e11
+X 18 s-arit128.ads
+44I12*Int128{15|63I9}
+54V13*Multiply_With_Ovflo_Check128{44I12} 55i<c,__gnat_mulv128>22
+X 20 s-arit64.ads
+44I12*Int64{15|55I9}
+54V13*Multiply_With_Ovflo_Check64{44I12} 55i<c,__gnat_mulv64>22
+X 25 s-imfi128.ads
+39K16*Img_Fixed_128 10|161w13 161r39 25|69e25
+56U14*Set_Image_Fixed128=67:19 10|185r52
+X 26 s-imfi32.ads
+39K16*Img_Fixed_32 10|159w13 159r39 26|69e24
+56U14*Set_Image_Fixed32=67:19 10|179r50
+X 27 s-imfi64.ads
+39K16*Img_Fixed_64 10|160w13 160r39 27|69e24
+56U14*Set_Image_Fixed64=67:19 10|182r50
+X 38 s-vafi128.ads
+40K16*Val_Fixed_128 10|164w13 164r39 38|60e25
+48V13*Scan_Fixed128=54:19{15|63I9} 10|185r37
+X 39 s-vafi32.ads
+40K16*Val_Fixed_32 10|162w13 162r39 39|60e24
+48V13*Scan_Fixed32=54:19{15|52I9} 10|179r36
+X 40 s-vafi64.ads
+40K16*Val_Fixed_64 10|163w13 163r39 40|60e24
+48V13*Scan_Fixed64=54:19{15|55I9} 10|182r36
+X 41 s-valllf.ads
+39K16*Val_LLF 10|165w13 165r39 41|57e19
+48V13*Scan_Long_Long_Float=52:19{long_long_float} 10|188r46
+
